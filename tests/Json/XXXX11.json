@@ -1,0 +1,1820 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "M552",
+         "CIMPRIM": "MINERALES EXPLOTADOS O PROCESADOS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "SUPERFICIE"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "CONCENTRADORA"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "SUBSUELO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M553",
+         "CIMPRIM": "MINERALES EXPLOTADOS O PROCESADOS TIPO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M554",
+         "CIMPRIM": "ALTITUD DE LA LABOR",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<2500 metros"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2501<x<3000 metros"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3001<x<3500 metros"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "3501<x<4000 metros"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "4001<x<5000 metros"
+            },
+            {
+               "CCODIGO": "6",
+               "CDESCRI": ">5000 metros"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M555",
+         "CIMPRIM": "Ruido",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M556",
+         "CIMPRIM": "Polvo",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M557",
+         "CIMPRIM": "Turnos",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M558",
+         "CIMPRIM": "Cargas",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M559",
+         "CIMPRIM": "Vibr. Segmentaria",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M560",
+         "CIMPRIM": "Vibr. Total",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M561",
+         "CIMPRIM": "Cancerígenos",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M562",
+         "CIMPRIM": "Temperaturas",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M563",
+         "CIMPRIM": "Mutagénicos",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M564",
+         "CIMPRIM": "Solventes",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M565",
+         "CIMPRIM": "Posturas",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M566",
+         "CIMPRIM": "Biológicos",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M567",
+         "CIMPRIM": "Metales pesados",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M568",
+         "CIMPRIM": "Mov. Repetidos",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M569",
+         "CIMPRIM": "PVD",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M570",
+         "CIMPRIM": "Otros",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M571",
+         "CIMPRIM": "OTROS DETALLE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M573",
+         "CIMPRIM": "ALERGIAS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M574",
+         "CIMPRIM": "INMUNIZACIONES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M575",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES PADRE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M576",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES MADRE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M577",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HERMANOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M578",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HERMANOS NRO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M579",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES ESPOSO(A)",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M580",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HIJOS NRO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M581",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HIJOS VIVOS NRO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M582",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HIJOS FALLECIDOS NRO.",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M583",
+         "CIMPRIM": "ANTECEDENTES FAMILIARES HIJOS FALLECIDOS NRO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M584",
+         "CIMPRIM": "HABITOS TABACO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NADA"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "POCO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "HABITUAL"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "EXCESIVO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M585",
+         "CIMPRIM": "HABITOS ALCOHOL",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NADA"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "POCO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "HABITUAL"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "EXCESIVO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M586",
+         "CIMPRIM": "HABITOS DROGA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NADA"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "POCO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "HABITUAL"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "EXCESIVO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T013",
+         "CIMPRIM": "P. SISTOLICA",
+         "CVALPRE": "0",
+         "CDESUNI": "mmHg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T014",
+         "CIMPRIM": "P. DIASTOLICA",
+         "CVALPRE": "0",
+         "CDESUNI": "mmHg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T002",
+         "CIMPRIM": "F.R.",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T003",
+         "CIMPRIM": "F.C.",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T007",
+         "CIMPRIM": "Sat. O2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T004",
+         "CIMPRIM": "Temp.",
+         "CVALPRE": "0",
+         "CDESUNI": "°C",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T006",
+         "CIMPRIM": "Talla",
+         "CVALPRE": "0",
+         "CDESUNI": "m",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T005",
+         "CIMPRIM": "Peso",
+         "CVALPRE": "0",
+         "CDESUNI": "Kg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T008",
+         "CIMPRIM": "I.M.C.",
+         "CVALPRE": "0",
+         "CDESUNI": "kg/m2",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T009",
+         "CIMPRIM": "Cintura",
+         "CVALPRE": "0",
+         "CDESUNI": "cm",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T010",
+         "CIMPRIM": "Cadera",
+         "CVALPRE": "0",
+         "CDESUNI": "cm",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T011",
+         "CIMPRIM": "I.C.C",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M587",
+         "CIMPRIM": "FVC REF",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M588",
+         "CIMPRIM": "FVC ABS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M589",
+         "CIMPRIM": "FEV1 REF",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M590",
+         "CIMPRIM": "FEV1 ABS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M591",
+         "CIMPRIM": "FEV1/FVC REF",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M592",
+         "CIMPRIM": "FEV1/FVC ABS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M593",
+         "CIMPRIM": "FEF 25-75% REF",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M594",
+         "CIMPRIM": "FEF 25-75% ABS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M595",
+         "CIMPRIM": "CONCLUSION FUNCION RESPIRATORIA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M596",
+         "CIMPRIM": "CABEZA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M597",
+         "CIMPRIM": "CUELLO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M598",
+         "CIMPRIM": "BOCA, AMIGDALAS, FARINGE, LARINGE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M599",
+         "CIMPRIM": "NARIZ",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M600",
+         "CIMPRIM": "PIEZAS EN MAL ESTADO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "O054",
+         "CIMPRIM": "PIEZAS FALTANTES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "''",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M501",
+         "CIMPRIM": "VISION DE LEJOS SIN CORRECTORES DERECHA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M502",
+         "CIMPRIM": "VISION DE LEJOS SIN CORRECTORES IZQUIERDA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M503",
+         "CIMPRIM": "VISION DE LEJOS CON CORRECTORES DERECHA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M504",
+         "CIMPRIM": "VISION DE LEJOS CON CORRECTORES IZQUIERDA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M505",
+         "CIMPRIM": "VISION DE CERCA SIN CORRECTORES DERECHO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M506",
+         "CIMPRIM": "VISION DE CERCA CON CORRECTORES DERECHO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M711",
+         "CIMPRIM": "VISION DE COLORES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M601",
+         "CIMPRIM": "ENFERMEDADES OCULARES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M602",
+         "CIMPRIM": "REFLEJOS PUPILARES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M034",
+         "CIMPRIM": "OIDO DERECHO AEREA 500",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M035",
+         "CIMPRIM": "OIDO DERECHO AEREA 1000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M036",
+         "CIMPRIM": "OIDO DERECHO AEREA 2000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M037",
+         "CIMPRIM": "OIDO DERECHO AEREA 3000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M038",
+         "CIMPRIM": "OIDO DERECHO AEREA 4000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M039",
+         "CIMPRIM": "OIDO DERECHO AEREA 6000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M040",
+         "CIMPRIM": "OIDO DERECHO AEREA 8000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M042",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 500",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M043",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 1000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M044",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 2000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M045",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 3000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M046",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 4000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M047",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 6000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M048",
+         "CIMPRIM": "OIDO IZQUIERDO AEREA 8000",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M030",
+         "CIMPRIM": "OTOSCOPIA DERECHO DETALLE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M032",
+         "CIMPRIM": "OTOSCOPIA IZQUIERDO DETALLE",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M605",
+         "CIMPRIM": "PULMONES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NORMAL"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "ANORMAL"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M606",
+         "CIMPRIM": "PULMONES DESCRIPCION",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M607",
+         "CIMPRIM": "TORAX",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M608",
+         "CIMPRIM": "CORAZON",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M609",
+         "CIMPRIM": "MIEMBROS SUPERIORES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M610",
+         "CIMPRIM": "MIEMBROS INFERIORES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M611",
+         "CIMPRIM": "REFLEJOS OSTEO-TENDINOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M612",
+         "CIMPRIM": "MARCHA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M613",
+         "CIMPRIM": "COLUMNA VERTEBRAL",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M615",
+         "CIMPRIM": "TACTO RECTAL",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NO SE HIZO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "NORMAL"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "ANORMAL"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M614",
+         "CIMPRIM": "ABDOMEN",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M616",
+         "CIMPRIM": "ANILLOS INGUINALES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M617",
+         "CIMPRIM": "HERNIAS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M618",
+         "CIMPRIM": "VÁRICES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M619",
+         "CIMPRIM": "ÓRGANOS GENITALES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M620",
+         "CIMPRIM": "GANGLIOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M621",
+         "CIMPRIM": "LENGUAJE, ATENCIÓN, MEMORIA, ORIENTACIÓN, INTELIGENCIA, AFECTIVIDAD",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "R001",
+         "CIMPRIM": "CALIDAD RADIOGRAFICA",
+         "CVALPRE": "1",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "1",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "Buena"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "Aceptable"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "Baja calidad"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "Inaceptable"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "R036",
+         "CIMPRIM": "SIMBOLOS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M623",
+         "CIMPRIM": "PLACA TORAX VERTICES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M625",
+         "CIMPRIM": "PLACA TORAX CAMPOS PULMONARES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M627",
+         "CIMPRIM": "PLACA TORAX HILOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M624",
+         "CIMPRIM": "PLACA TORAX SENOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M626",
+         "CIMPRIM": "PLACA TORAX MEDIASTINOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M628",
+         "CIMPRIM": "PLACA TORAX SILUETA CARDIOVASCULAR",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "R010",
+         "CIMPRIM": "PROFUSION OPACIDADES PEQUEÑAS, ESCALA DE 12 PUNTOS",
+         "CVALPRE": "1",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "1",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0/-"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "0/0"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "0/1"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1/0"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "1/1"
+            },
+            {
+               "CCODIGO": "6",
+               "CDESCRI": "1/2"
+            },
+            {
+               "CCODIGO": "7",
+               "CDESCRI": "2/1"
+            },
+            {
+               "CCODIGO": "8",
+               "CDESCRI": "2/2"
+            },
+            {
+               "CCODIGO": "9",
+               "CDESCRI": "2/3"
+            },
+            {
+               "CCODIGO": "10",
+               "CDESCRI": "3/2"
+            },
+            {
+               "CCODIGO": "11",
+               "CDESCRI": "3/3"
+            },
+            {
+               "CCODIGO": "12",
+               "CDESCRI": "3/+"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "R010",
+         "CIMPRIM": "PROFUSION OPACIDADES PEQUEÑAS, ESCALA DE 12 PUNTOS",
+         "CVALPRE": "1",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "1",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0/-"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "0/0"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "0/1"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1/0"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "1/1"
+            },
+            {
+               "CCODIGO": "6",
+               "CDESCRI": "1/2"
+            },
+            {
+               "CCODIGO": "7",
+               "CDESCRI": "2/1"
+            },
+            {
+               "CCODIGO": "8",
+               "CDESCRI": "2/2"
+            },
+            {
+               "CCODIGO": "9",
+               "CDESCRI": "2/3"
+            },
+            {
+               "CCODIGO": "10",
+               "CDESCRI": "3/2"
+            },
+            {
+               "CCODIGO": "11",
+               "CDESCRI": "3/3"
+            },
+            {
+               "CCODIGO": "12",
+               "CDESCRI": "3/+"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "R013",
+         "CIMPRIM": "OPACIDADES GRANDES",
+         "CVALPRE": "1",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "1",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "A"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "B"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "C"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M631",
+         "CIMPRIM": "REACCIONES SEROLÓGICAS A LÚES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NEGATIVO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "PSOTIVO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M629",
+         "CIMPRIM": "NEUMOCONIOSIS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NORMAL"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "SOSPECHA"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "NEUMOCONIOSIS "
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L027",
+         "CIMPRIM": "Grupo Sanguineo",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "O"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "A"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "B"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "AB"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L028",
+         "CIMPRIM": "Factor RH",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "POSITIVO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "NEGATIVO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L007",
+         "CIMPRIM": "Hematocrito",
+         "CVALPRE": "",
+         "CDESUNI": "%",
+         "CRANGO": "Varones: 42-54--Mujeres: 38 - 46",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L006",
+         "CIMPRIM": "Hemoglobina",
+         "CVALPRE": "",
+         "CDESUNI": "g/dL",
+         "CRANGO": "Varones: 13.3 - 17.0 --Mujeres: 12.0 - 15.8",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L050",
+         "CIMPRIM": "Glucosa",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "70-110",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L051",
+         "CIMPRIM": "Colesterol",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "Ideal:<200 Limite alto:200-239 Alto >=240",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L055",
+         "CIMPRIM": "Trigliceridos",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "Normal <150 Normal alto:150-199 Alto:200-499",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L052",
+         "CIMPRIM": "HDL Colesterol",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "Bajo:<40 Normal:40-59 Alto:>=60",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L053",
+         "CIMPRIM": "LDL Colesterol",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "Optimo:<100 Normal:100-129 Limite alto:130-159 Alto:160-189 Muy alto:>=190",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "L080",
+         "CIMPRIM": "Creatinina",
+         "CVALPRE": "",
+         "CDESUNI": "mg/dl",
+         "CRANGO": "Varones: 0.8 - 1.3--Mujeres: 0.6 - 1.2",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M630",
+         "CIMPRIM": "ORINA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

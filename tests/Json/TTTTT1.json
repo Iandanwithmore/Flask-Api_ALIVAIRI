@@ -1,0 +1,276 @@
+{
+    "DATA": [
+        {
+            "CCODIND": "T001",
+            "CIMPRIM": "Peso",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "T002",
+            "CIMPRIM": "Talla",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "T003",
+            "CIMPRIM": "IMC",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "T004",
+            "CIMPRIM": "Presion arterial",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "T005",
+            "CIMPRIM": "Frecuencia cardiaca",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M001",
+            "CIMPRIM": "HEMOGRAMA",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "S",
+            "MTABLA": [
+                {
+                    "CCODIGO": "1",
+                    "CDESCRI": "NORMAL"
+                },
+                {
+                    "CCODIGO": "2",
+                    "CDESCRI": "ALTERADO"
+                }
+            ],
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M002",
+            "CIMPRIM": "HEMOGRAMA DESCRIPCION",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M003",
+            "CIMPRIM": "EXAMEN DE ORINA",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "S",
+            "MTABLA": [
+                {
+                    "CCODIGO": "1",
+                    "CDESCRI": "NORMAL"
+                },
+                {
+                    "CCODIGO": "2",
+                    "CDESCRI": "ALTERADO"
+                }
+            ],
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M004",
+            "CIMPRIM": "EXAMEN DE ORINA DESCRIPCION",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M005",
+            "CIMPRIM": "Hemoglobina",
+            "CRESULT": "0",
+            "CRANGO": "Varones: 13.3 - 17.0 --Mujeres: 12.0 - 15.8",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M006",
+            "CIMPRIM": "Glucosa",
+            "CRESULT": "0",
+            "CRANGO": "70-110",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M007",
+            "CIMPRIM": "Colesterol Total",
+            "CRESULT": "0",
+            "CRANGO": "Ideal:<200 Limite alto:200-239 Alto >=240",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M008",
+            "CIMPRIM": "Trigliceridos",
+            "CRESULT": "0",
+            "CRANGO": "Normal <150 Normal alto:150-199 Alto:200-499",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M009",
+            "CIMPRIM": "Creatinina",
+            "CRESULT": "0",
+            "CRANGO": "Varones: 0.8 - 1.3--Mujeres: 0.6 - 1.2",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M010",
+            "CIMPRIM": "Rx torax",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M011",
+            "CIMPRIM": "Rx de columna lumbar",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M012",
+            "CIMPRIM": "Examen oftalmologico",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M013",
+            "CIMPRIM": "Psicologico",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M014",
+            "CIMPRIM": "Osteomuscular",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M015",
+            "CIMPRIM": "Esperometria",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M016",
+            "CIMPRIM": "Audiometria",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M017",
+            "CIMPRIM": "Electrocargdiograma",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        },
+        {
+            "CCODIND": "M018",
+            "CIMPRIM": "Electroencefalograma",
+            "CRESULT": "0",
+            "CRANGO": "",
+            "CVALPRE": "0",
+            "FHTML": "I",
+            "MTABLA": null,
+            "NOPCION": 0,
+            "NORDEN": -1
+        }
+    ],
+    "OK": 1
+}

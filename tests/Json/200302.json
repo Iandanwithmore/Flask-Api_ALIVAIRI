@@ -1,0 +1,655 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "M445",
+         "CIMPRIM": "MOTIVO DE LA EVALUACION",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M462",
+         "CIMPRIM": "PRINCIPALES RIESGOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M463",
+         "CIMPRIM": "MEDIDAS DE SEGURIDAD",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M464",
+         "CIMPRIM": "HISTORIA FAMILIAR",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M465",
+         "CIMPRIM": "ACCIDENTES Y ENFERMEDADES (Durante el tiempo laborado)",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M466",
+         "CIMPRIM": "HABITOS PASATIEMPOS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M015",
+         "CIMPRIM": "TABACO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M384",
+         "CIMPRIM": "CONSUMO DE ALCOHOL",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M385",
+         "CIMPRIM": "CONSUMO DE DROGAS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M446",
+         "CIMPRIM": "PRESENTACION",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "ADECUADO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "INADECUADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M447",
+         "CIMPRIM": "POSTURA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "ERGUIDA"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "INADECUADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M448",
+         "CIMPRIM": "DISCURSO RITMO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "LENTO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "RAPIDO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "FLUIDO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M449",
+         "CIMPRIM": "DISCURSO TONO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "BAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "MODERADO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "ALTO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M450",
+         "CIMPRIM": "DISCURSO ARTICULACION",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "CON DIFICULTAD"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "SIN DIFICULTAD"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M451",
+         "CIMPRIM": "ORIENTACION TIEMPO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "ORIENTADO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DESORIENTADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M452",
+         "CIMPRIM": "ORIENTACION ESPACIO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "ORIENTADO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DESORIENTADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 0,
+         "CCODIND": "M453",
+         "CIMPRIM": "ORIENTACION PERSONA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "ORIENTADO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DESORIENTADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M467",
+         "CIMPRIM": "LUCIDO ATENTO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M468",
+         "CIMPRIM": "PENSAMIENTO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M469",
+         "CIMPRIM": "PERCEPCION",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M470",
+         "CIMPRIM": "MEMORIA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "CORTO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "MEDIANO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "LARGO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M471",
+         "CIMPRIM": "INTELIGENCIA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "MUY SUPERIOR"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "SUPERIOR"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "N BRILLANTE"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "N PROMEDIO"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "N TORPE"
+            },
+            {
+               "CCODIGO": "6",
+               "CDESCRI": "FRONTERIZO"
+            },
+            {
+               "CCODIGO": "7",
+               "CDESCRI": "RM LEVE"
+            },
+            {
+               "CCODIGO": "8",
+               "CDESCRI": "RM MODERADO"
+            },
+            {
+               "CCODIGO": "9",
+               "CDESCRI": "RM SEVERO"
+            },
+            {
+               "CCODIGO": "10",
+               "CDESCRI": "RM PROFUNDO"
+            }
+         ]
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M472",
+         "CIMPRIM": "APETITO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M473",
+         "CIMPRIM": "SUEÑO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M474",
+         "CIMPRIM": "PERSONALIDAD",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M475",
+         "CIMPRIM": "SEXUALIDAD",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 1,
+         "CCODIND": "M476",
+         "CIMPRIM": "CONDUCTA SEXUAL",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M477",
+         "CIMPRIM": "TEST DE PERSONALIDAD EYSENCK",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M478",
+         "CIMPRIM": "ESCALA DE MOTIVADORES PSICOSOCIALES MPS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M479",
+         "CIMPRIM": "DIAGNOSTICO NEUROPSICOLOGICO LURIA-DNA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M480",
+         "CIMPRIM": "ESCALA DE SOMNOLENCIA EPWORTH",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M481",
+         "CIMPRIM": "INVENTARIO DE BURNOUT",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M482",
+         "CIMPRIM": "TEST DE SADS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M483",
+         "CIMPRIM": "BATERIA DE CONDUCTORES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M484",
+         "CIMPRIM": "WAIS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M485",
+         "CIMPRIM": "TEST BENTON",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M486",
+         "CIMPRIM": "TEST BENDER",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M487",
+         "CIMPRIM": "TEST DE ANSIEDAD DE ZUNG",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M488",
+         "CIMPRIM": "TEST DE DEPRESION ZUNG",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M489",
+         "CIMPRIM": "ESCALA DE ESTRES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M490",
+         "CIMPRIM": "TEST FIGURA BAJO LA LLUVIA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M491",
+         "CIMPRIM": "TEST DE FATIGA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": 2,
+         "CCODIND": "M492",
+         "CIMPRIM": "TEST ISTAS",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

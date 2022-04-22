@@ -1,0 +1,161 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "T012",
+         "CIMPRIM": "RITMO",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T003",
+         "CIMPRIM": "F.C.",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M001",
+         "CIMPRIM": "INTERVALO PR",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M002",
+         "CIMPRIM": "INTERVALO QRS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M003",
+         "CIMPRIM": "INTERVALO QT",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M004",
+         "CIMPRIM": "ONDA P",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M005",
+         "CIMPRIM": "ONDA Q",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M006",
+         "CIMPRIM": "ONDA R",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M007",
+         "CIMPRIM": "ONDA S",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M008",
+         "CIMPRIM": "ONDA T",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M009",
+         "CIMPRIM": "ONDA U",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M010",
+         "CIMPRIM": "SEGMENTO ST",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M011",
+         "CIMPRIM": "EJE QRS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

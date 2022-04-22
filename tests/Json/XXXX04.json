@@ -1,0 +1,305 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "M366",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA ABDOMEN",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "EXCELENTE"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "PROMEDIO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "REGULAR"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "POBRE"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M367",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA ABDOMEN OBSERVACIONES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M368",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA CADERA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "EXCELENTE"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "PROMEDIO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "REGULAR"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "POBRE"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M369",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA CADERA OBSERVACIONES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M370",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA MUSLO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": 0,
+               "CDESCRI": "ALGO SALIO MAL"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M371",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA MUSLO OBSERVACIONES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M372",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA ABDOMEN LATERAL",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "EXCELENTE"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "PROMEDIO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "REGULAR"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "POBRE"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M373",
+         "CIMPRIM": "FLEXIBILIDAD/FUERZA ABDOMEN LATERAL OBSERVACIONES",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M374",
+         "CIMPRIM": "RANGOS ARTICULARES ABDUCCION HOMBRO NORMAL 0 - 180",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "OPTIMO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "LIMITADO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "MUY LIMITADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M375",
+         "CIMPRIM": "ABDUCCION HOMBRO NORMAL 0 - 180 DOLOR CONTRA RESISTENCIA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M376",
+         "CIMPRIM": "RANGOS ARTICULARES ABDUCCION HOMBRO NORMAL 0 - 60",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "OPTIMO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "LIMITADO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "MUY LIMITADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M377",
+         "CIMPRIM": "ABDUCCION HOMBRO NORMAL 0 - 60 DOLOR CONTRA RESISTENCIA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M378",
+         "CIMPRIM": "RANGOS ARTICULARES ROTACION EXTERNA NORMAL 0 - 90",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "OPTIMO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "LIMITADO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "MUY LIMITADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M379",
+         "CIMPRIM": "ROTACION EXTERNA NORMAL 0 - 90 DOLOR CONTRA RESISTENCIA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M380",
+         "CIMPRIM": "RANGOS ARTICULARES ROTACION EXTERNA HOMBRO INTERNA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "OPTIMO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "LIMITADO"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "MUY LIMITADO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M381",
+         "CIMPRIM": "ROTACION EXTERNA HOMBRO INTERNA DOLOR CONTRA RESISTENCIA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

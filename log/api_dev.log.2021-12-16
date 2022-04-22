@@ -1,0 +1,694 @@
+{'TIME':2021-12-16 11:32:06,901,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 11:32:08,518,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 11:32:08,539,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 11:32:08,624,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 11:32:13,239,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:32:13] "GET /main?CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:32:15,937,'ADDRESS':'127.0.0.1','URL': 'http://127.0.0.1:4000/actividades?CTIPSER=R&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'QUERY': RESPUESTA VACIA:
+        SELECT cCodExa, cCodAct, tActCit, tActAte, tActFin, cCodPla, cUsuFir, cUsuCod,
+            c_TipSer, cDesSer,
+            cDesDoc, cNroDni, cNroDoc, cNombre, tNacimi, nEdad, cDesSex,
+            cDesTip, cDesPue, 
+            cNroRuc, cDesEmp, cDesSed,
+            c_Aptitu, cDesApt,
+            cDesEst,
+           cDesPer,
+            c_TipPla, tPlaIni, tPlaFin, cVauche
+        FROM V_ACTIVIDAD_1
+        WHERE c_TipSer = 'R'AND c_Estado != 'F'}}
+{'TIME':2021-12-16 11:32:15,937,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:32:15] "GET /actividades?CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:32:16,016,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:32:16] "GET /main?CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:36:57,878,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\Actividad.py', reloading}}
+{'TIME':2021-12-16 11:36:57,968,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 11:37:03,290,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 11:37:03,309,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 11:37:03,397,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 11:37:03,636,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:37:03] "GET /actividades?CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,302,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,460,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /actividad/subtitulos?CCODPLA=72539751001&CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,462,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,464,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /actividad/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,465,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 11:38:12,476,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 11:38:12] "GET /view/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 12:01:39,507,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 12:01:39,608,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 12:01:41,231,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 12:01:41,246,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 12:01:41,325,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 12:40:27,734,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 12:40:27,858,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 12:40:29,340,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 12:40:29,355,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 12:40:29,436,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 12:53:19,288,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\CExcepction.py', reloading}}
+{'TIME':2021-12-16 12:53:19,386,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 12:53:21,003,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 12:53:21,016,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 12:53:21,090,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 12:59:23,207,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 12:59:23,323,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 12:59:24,715,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 12:59:24,732,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 12:59:24,821,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:10:18,651,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 13:10:18,745,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:10:22,069,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:10:22,087,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:10:22,165,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:13:31,858,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,859,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,895,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,895,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,897,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,901,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:31,903,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 'OACTIVI', 'DETAIL':<class 'KeyError'>
+'OACTIVI'
+Actividad.py
+320}}
+{'TIME':2021-12-16 13:13:31,903,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:31] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,370,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,393,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,394,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,394,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,483,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,486,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:34,487,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': ACTIVIDAD: RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+ACTIVIDAD: RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 13:13:34,488,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:34] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,924,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,924,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,929,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,930,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,930,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,935,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:37,937,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 'OACTIVI', 'DETAIL':<class 'KeyError'>
+'OACTIVI'
+Actividad.py
+320}}
+{'TIME':2021-12-16 13:13:37,937,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:37] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,110,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,111,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,111,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,114,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,119,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,123,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:13:40,124,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 'OACTIVI', 'DETAIL':<class 'KeyError'>
+'OACTIVI'
+Actividad.py
+320}}
+{'TIME':2021-12-16 13:13:40,125,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:13:40] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:32,974,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\Actividad.py', reloading}}
+{'TIME':2021-12-16 13:15:33,081,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:15:34,601,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:15:34,617,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:15:34,695,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:15:35,756,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,757,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,758,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,760,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,763,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,766,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:15:35,774,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'PYFPDF' object has no attribute 'height', 'DETAIL':<class 'ValueError'>
+
+'PYFPDF' object has no attribute 'height'
+Actividad.py
+322}}
+{'TIME':2021-12-16 13:15:35,775,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:15:35] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:16:46,341,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 13:16:46,446,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:16:47,972,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:16:47,984,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:16:48,061,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:18:27,494,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,494,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,495,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,496,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,501,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,506,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,568,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:18:27,590,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:18:27] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:19:54,844,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 13:19:54,941,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:19:56,440,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:19:56,453,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:19:56,532,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:20:09,491,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,495,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,500,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,502,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,506,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,508,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,584,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:09,597,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:09] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,031,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,031,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,032,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,040,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,047,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:20:24,049,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:20:24] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,270,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,271,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,271,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,282,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,282,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:55,286,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:55] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,788,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,789,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,789,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,790,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,798,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:56,800,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:56] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,660,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,661,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,662,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,662,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,674,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,677,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:58,679,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 13:28:58,679,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:58] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,698,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,702,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,702,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,704,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,712,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,714,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,875,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:28:59,879,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:28:59] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:09,828,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 13:51:09,982,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:51:11,722,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:51:11,738,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:51:11,815,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:51:12,000,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,001,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,004,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,024,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,024,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,029,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:12,044,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:51:12] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:51:19,452,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 13:51:19,546,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:51:20,927,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:51:20,941,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:51:21,014,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:59:04,690,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 13:59:04,783,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:59:06,285,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:59:06,300,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:59:06,378,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:59:06,656,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,656,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,662,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,664,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,672,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,674,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,720,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:06,724,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square', 'DETAIL':<class 'ValueError'>
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+Actividad.py
+322}}
+{'TIME':2021-12-16 13:59:06,725,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:06] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,649,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,650,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,651,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,656,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,666,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,668,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,746,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:07,749,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square', 'DETAIL':<class 'ValueError'>
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+PRINT BODY: 'PYFPDF' object has no attribute 'set_h_square'
+Actividad.py
+322}}
+{'TIME':2021-12-16 13:59:07,750,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:07] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:45,483,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 13:59:45,582,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 13:59:47,161,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 13:59:47,175,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 13:59:47,257,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 13:59:47,612,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,613,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,614,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,614,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,614,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,623,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:47,624,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : ERROR EN EJECCION, 'DETAIL':<class 'ValueError'>
+DATOS : ERROR EN EJECCION
+Actividad.py
+313}}
+{'TIME':2021-12-16 13:59:47,625,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:47] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,327,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,336,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,337,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,344,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,347,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,349,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,398,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 13:59:49,404,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 13:59:49] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:00:07,891,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 14:00:07,996,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:00:09,463,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:00:09,476,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:00:09,557,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 14:01:24,362,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 14:01:24,455,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:01:25,916,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:01:25,930,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:01:26,006,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 14:01:30,926,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:30,927,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:30,927,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:30,930,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:30,936,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:30,938,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:30] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:31,055,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:31] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:01:31,060,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:01:31] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:06:09,409,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 14:06:09,507,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:06:10,963,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:06:10,976,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:06:11,054,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 14:07:34,947,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:34,947,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:34,948,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:34,951,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:34,958,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:34,961,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:34] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:35,013,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:35] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:07:35,019,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:07:35] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:53,164,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 14:08:53,274,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:08:54,777,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:08:54,791,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:08:54,876,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 14:08:55,234,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,240,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,241,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,247,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,358,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,361,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,426,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:08:55,432,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 14:08:55] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 14:09:55,663,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 14:09:55,758,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:09:57,215,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:09:57,229,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:09:57,318,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 14:56:13,200,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 14:56:13,326,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 14:56:15,035,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 14:56:15,051,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 14:56:15,127,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 15:02:32,370,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 15:02:32,470,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 15:02:33,967,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 15:02:33,983,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 15:02:34,065,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 15:02:34,441,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,442,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,447,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,449,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,455,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,457,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,527,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:02:34,532,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:02:34] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:54,501,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-16 15:59:54,680,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 15:59:56,556,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 15:59:56,571,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 15:59:56,646,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 15:59:57,995,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:57] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:57,996,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:57] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:57,996,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:57] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:58,002,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:58] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:58,004,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:58] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:58,007,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:58] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 15:59:58,011,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'int' object is not subscriptable, 'DETAIL':<class 'ValueError'>
+
+'int' object is not subscriptable
+Actividad.py
+322}}
+{'TIME':2021-12-16 15:59:58,012,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 15:59:58] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,830,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,831,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,831,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,832,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,840,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,842,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:00:05,846,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'int' object is not subscriptable, 'DETAIL':<class 'ValueError'>
+
+'int' object is not subscriptable
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:00:05,847,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:00:05] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:05,260,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:02:05,365,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:02:06,876,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:02:06,888,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:02:06,964,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:02:08,848,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,849,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,852,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,860,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,860,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,864,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:02:08,867,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'int' object is not subscriptable, 'DETAIL':<class 'ValueError'>
+
+'int' object is not subscriptable
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:02:08,867,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:02:08] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:36,671,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:03:36,763,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:03:38,347,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:03:38,363,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:03:38,446,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:03:39,968,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,972,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,973,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,978,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,985,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,987,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:39,990,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+NbLines() missing 1 required positional argument: 'txt', 'DETAIL':<class 'ValueError'>
+
+NbLines() missing 1 required positional argument: 'txt'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:03:39,990,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:39] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:54,713,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:03:54,809,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:03:56,291,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:03:56,302,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:03:56,375,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:03:56,806,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,806,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,814,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,817,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,899,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,901,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,969,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:03:56,974,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:03:56] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:43,721,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:06:43,824,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:06:45,297,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:06:45,310,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:06:45,380,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:06:47,379,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,379,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,380,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,385,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,389,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,392,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,482,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:06:47,497,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:06:47] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:38,422,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:07:38,522,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:07:39,899,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:07:39,913,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:07:40,005,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:07:41,856,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,857,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,858,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,863,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,865,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,868,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,960,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:07:41,974,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:07:41] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:15,222,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:09:15,364,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:09:16,807,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:09:16,823,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:09:16,903,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:09:18,807,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,808,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,815,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,818,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,821,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,823,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,905,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:09:18,920,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:09:18] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:56,271,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:12:56,372,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:12:57,909,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:12:57,921,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:12:57,994,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:12:59,104,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,105,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,105,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,106,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,182,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,184,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:12:59,186,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'CDESSER', 'DETAIL':<class 'ValueError'>
+
+'CDESSER'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:12:59,186,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:12:59] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,430,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,431,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,436,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,438,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,442,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,445,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,657,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:00,671,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:00] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:35,936,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:13:36,032,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:13:37,455,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:13:37,467,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:13:37,541,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:13:40,073,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,074,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,074,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,074,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,084,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,087,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:40,088,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : ERROR EN EJECCION, 'DETAIL':<class 'ValueError'>
+DATOS : ERROR EN EJECCION
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:13:40,088,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:40] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,484,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,484,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,487,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,494,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,495,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,499,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,654,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:13:41,680,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:13:41] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:46,311,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:15:46,426,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:15:47,854,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:15:47,866,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:15:47,943,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:15:49,079,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,088,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,089,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,093,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,209,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,212,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:49,213,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:15:49,213,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:49] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,032,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,040,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,041,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,043,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,048,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,050,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,156,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:15:50,161,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:15:50] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:04,860,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:56:04,993,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:56:06,610,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:56:06,623,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:56:06,695,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:56:11,518,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,519,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,529,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,529,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,531,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,536,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:11,540,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+can't multiply sequence by non-int of type 'float', 'DETAIL':<class 'ValueError'>
+
+can't multiply sequence by non-int of type 'float'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:56:11,541,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:56:11] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:56:59,747,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:56:59,846,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:57:01,267,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:57:01,280,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:57:01,354,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:57:01,767,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,768,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,770,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,771,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,779,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,781,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:57:01,796,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+can't multiply sequence by non-int of type 'float', 'DETAIL':<class 'ValueError'>
+
+can't multiply sequence by non-int of type 'float'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:57:01,797,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:57:01] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:04,030,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:58:04,121,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:58:05,545,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:58:05,560,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:58:05,647,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:58:10,154,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,155,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,168,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,169,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,169,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,173,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:10,175,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:58:10,176,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:10] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,307,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,307,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,308,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,310,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,317,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,319,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:11,320,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:58:11,320,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:11] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,259,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,261,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,262,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,262,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,271,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,273,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:12,274,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:58:12,274,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:12] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,016,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,017,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,022,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,028,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,033,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,035,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:13,039,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+object of type 'float' has no len(), 'DETAIL':<class 'ValueError'>
+
+object of type 'float' has no len()
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:58:13,039,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:13] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:38,199,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:58:38,322,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:58:39,754,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:58:39,766,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:58:39,843,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:58:39,980,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:39] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:39,981,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:39] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:39,981,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:39] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:39,981,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:39] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:40,093,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:40] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:40,097,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:40] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:40,101,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'CDESSER', 'DETAIL':<class 'ValueError'>
+
+'CDESSER'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:58:40,103,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:40] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,360,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,361,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,362,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,362,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,375,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,378,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,426,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:58:42,432,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:58:42] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:08,161,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:59:08,252,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:59:09,794,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:59:09,809,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:59:09,899,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:59:10,539,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,542,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,559,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,559,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,560,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,565,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:10,569,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': 
+'CDESSER', 'DETAIL':<class 'ValueError'>
+
+'CDESSER'
+Actividad.py
+322}}
+{'TIME':2021-12-16 16:59:10,569,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:10] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,370,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,370,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,374,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,377,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,385,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,387,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,550,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:11,568,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:11] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:31,652,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 16:59:31,752,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 16:59:33,207,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 16:59:33,220,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 16:59:33,296,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-16 16:59:35,003,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,021,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,021,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,022,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,022,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,028,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:35,029,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : ERROR EN EJECCION, 'DETAIL':<class 'ValueError'>
+DATOS : ERROR EN EJECCION
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:59:35,029,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:35] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,738,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,739,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,739,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,748,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,748,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,752,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:36,753,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999','TYPE':'ERROR','MODULE':'Actividad','MSG':{'USER':9999, 'DATA': DATOS : RESPUESTA VACIA, 'DETAIL':<class 'ValueError'>
+DATOS : RESPUESTA VACIA
+Actividad.py
+313}}
+{'TIME':2021-12-16 16:59:36,753,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:36] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,567,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,568,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad/extra?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,572,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,574,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad/print/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,578,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,580,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /view/print/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,658,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=0000 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 16:59:37,668,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [16/Dec/2021 16:59:37] "GET /actividad/PDF?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-16 17:00:53,115,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-16 17:00:53,210,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-16 17:00:54,665,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-16 17:00:54,677,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-16 17:00:54,749,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}

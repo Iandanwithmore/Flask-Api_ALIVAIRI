@@ -1,0 +1,149 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "T013",
+         "CIMPRIM": "P. SISTOLICA",
+         "CVALPRE": "0",
+         "CDESUNI": "mmHg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T014",
+         "CIMPRIM": "P. DIASTOLICA",
+         "CVALPRE": "0",
+         "CDESUNI": "mmHg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T002",
+         "CIMPRIM": "F.R.",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T003",
+         "CIMPRIM": "F.C.",
+         "CVALPRE": "0",
+         "CDESUNI": "min",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T007",
+         "CIMPRIM": "Sat. O2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T004",
+         "CIMPRIM": "Temp.",
+         "CVALPRE": "0",
+         "CDESUNI": "°C",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T006",
+         "CIMPRIM": "Talla",
+         "CVALPRE": "0",
+         "CDESUNI": "m",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T008",
+         "CIMPRIM": "I.M.C.",
+         "CVALPRE": "0",
+         "CDESUNI": "kg/m2",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T009",
+         "CIMPRIM": "Cintura",
+         "CVALPRE": "0",
+         "CDESUNI": "cm",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T010",
+         "CIMPRIM": "Cadera",
+         "CVALPRE": "0",
+         "CDESUNI": "cm",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T011",
+         "CIMPRIM": "I.C.C",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "T005",
+         "CIMPRIM": "Peso",
+         "CVALPRE": "0",
+         "CDESUNI": "Kg",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

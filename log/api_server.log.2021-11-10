@@ -1,0 +1,12 @@
+{'TIME':2021-11-10 13:25:51,018,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 13:25:51,031,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 13:25:51,068,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 13:27:57,142,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\config.py', reloading}}
+{'TIME':2021-11-10 13:27:58,051,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 13:27:58,072,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 13:27:58,111,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 13:34:11,459,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\decorators.py', reloading}}
+{'TIME':2021-11-10 13:36:20,287,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:36:21,010,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 13:36:21,023,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 13:36:21,062,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}

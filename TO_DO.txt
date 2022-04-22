@@ -1,0 +1,10 @@
+PRIMARY
+1.Test all formats
+2.When activity is in state 'F' and is the last re-generate all files
+3.permissions to users to see other files
+4.CActividad cut in services with json predefined
+SECONDARY
+1. Docs in functions
+2. Notations in functions
+3. Refactor Routes with exception_handler_request
+4. Move fetch all to CBase

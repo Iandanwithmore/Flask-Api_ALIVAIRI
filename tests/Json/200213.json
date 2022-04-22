@@ -1,0 +1,266 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "M493",
+         "CIMPRIM": "DIABETES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M494",
+         "CIMPRIM": "CIRUGIA OCULAR",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M495",
+         "CIMPRIM": "EXP. SUSTANCIA QUIMICA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M496",
+         "CIMPRIM": "HIPERTENSION",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M497",
+         "CIMPRIM": "TRAUMA OCULAR",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M498",
+         "CIMPRIM": "GLAUCOMA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M499",
+         "CIMPRIM": "CORRECTORES OCULARES",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M500",
+         "CIMPRIM": "ULTIMA REFRACCION",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M501",
+         "CIMPRIM": "VISION DE LEJOS SIN CORRECTORES DERECHA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M502",
+         "CIMPRIM": "VISION DE LEJOS SIN CORRECTORES IZQUIERDA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M503",
+         "CIMPRIM": "VISION DE LEJOS CON CORRECTORES DERECHA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M504",
+         "CIMPRIM": "VISION DE LEJOS CON CORRECTORES IZQUIERDA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M505",
+         "CIMPRIM": "VISION DE CERCA SIN CORRECTORES DERECHO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M506",
+         "CIMPRIM": "VISION DE CERCA CON CORRECTORES DERECHO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "N",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M507",
+         "CIMPRIM": "PATOLOGIA",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "NO PATOLOGIA OCULAR RELEVANTE"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "PTOSIS PALPEBRAL"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "CATARATAS"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "PTERIGION"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "OTRO"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M508",
+         "CIMPRIM": "PATOLOGIA OTRO",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M509",
+         "CIMPRIM": "VISION DE COLORES (TEST DE ISHIHARA)",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M510",
+         "CIMPRIM": "VISION ESTEREOSCOPICA",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M727",
+         "CIMPRIM": "VISION DE CERCA SIN CORRECTORES IZQUIERDO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M728",
+         "CIMPRIM": "VISION DE CERCA CON CORRECTORES IZQUIERDO",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "",
+         "FHTML": "N",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}

@@ -1,0 +1,38 @@
+{'TIME':2021-11-10 10:24:51,473,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 10:24:52,067,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 10:24:52,097,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 10:24:52,126,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 10:28:37,446,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\__init__.py', reloading}}
+{'TIME':2021-11-10 10:28:37,488,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 10:33:32,043,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 10:33:32,731,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 10:33:32,742,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 10:33:32,776,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 10:34:06,792,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 10:41:40,800,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 10:41:41,485,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 10:41:41,497,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 10:41:41,531,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 10:42:03,091,'ADDRESS':'127.0.0.1','URL': 'http://127.0.0.1:4000/view/actividaddetalle?CCODACT=00012156&CTIPSER=L&CCODPLA=29653075001&CCODPER=000&CNRODNI=29653075&CNRORUC=20600633369&CCODUSU=9999','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 10:42:03] "[35m[1mGET /view/actividaddetalle?CCODACT=00012156&CTIPSER=L&CCODPLA=29653075001&CCODPER=000&CNRODNI=29653075&CNRORUC=20600633369&CCODUSU=9999 HTTP/1.1[0m" 500 -}}
+{'TIME':2021-11-10 10:42:03,093,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 10:42:03] "GET /actividad/PDF?CCODACT=00012156&CTIPSER=L&CCODPLA=29653075001&CCODPER=000&CNRODNI=29653075&CNRORUC=20600633369&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:04,435,'ADDRESS':'127.0.0.1','URL': 'http://localhost:4000/persona?CNRODNI=72539751','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "[35m[1mGET /persona?CNRODNI=72539751 HTTP/1.1[0m" 500 -}}
+{'TIME':2021-11-10 11:17:04,629,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "GET /persona?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:04,642,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "GET /persona?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:04,651,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "GET /persona?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:04,678,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "GET /persona?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:04,696,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:04] "GET /persona?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:17:16,447,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [10/Nov/2021 11:17:16] "GET /persona?CNRODNI=72539751&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-11-10 11:18:28,332,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\__init__.py', reloading}}
+{'TIME':2021-11-10 11:18:28,377,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 11:18:29,270,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-10 11:18:29,282,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-10 11:18:29,317,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-10 11:19:39,304,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\__init__.py', reloading}}
+{'TIME':2021-11-10 11:19:39,340,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 12:24:33,115,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:22:48,112,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:23:02,676,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:23:41,021,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:25:50,260,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:27:57,177,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-10 13:34:11,505,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}

@@ -1,0 +1,9 @@
+{'TIME':2021-11-11 13:22:47,151,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-11 13:22:50,224,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-11 13:22:50,241,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-11 13:22:50,284,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-11-11 14:13:20,065,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-11-11 14:13:20,115,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-11-11 14:13:20,925,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-11-11 14:13:20,937,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-11-11 14:13:20,979,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}

@@ -1,0 +1,372 @@
+{'TIME':2021-12-04 07:38:05,034,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:38:09,104,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:38:09,124,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:38:09,315,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:39:29,589,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:39:29,688,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:39:31,228,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:39:31,240,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:39:31,319,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:39:36,086,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:39:36] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:39:41,864,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:39:41] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:40:00,525,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:40:00,658,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:40:02,060,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:40:02,072,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:40:02,148,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:40:02,263,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:40:02] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:40:21,643,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:40:21,738,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:40:23,291,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:40:23,305,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:40:23,387,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:40:23,612,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:40:23] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:40:24,697,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:40:24] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:40:50,510,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:40:50,626,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:40:52,057,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:40:52,069,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:40:52,146,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:40:52,432,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:40:52] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:41:54,320,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:41:54] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:42:15,966,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:42:17,278,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:42:17,291,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:42:17,362,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:42:31,197,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:42:31] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:43:19,176,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-04 07:43:19,279,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:43:20,746,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:43:20,759,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:43:20,834,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:43:21,142,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:43:21] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:45:24,028,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:45:24] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:45:48,963,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:45:49,086,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:45:50,519,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:45:50,531,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:45:50,612,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:45:50,703,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:45:50] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:45:52,007,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:45:52] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:46:03,675,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:46:03,778,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:46:05,200,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:46:05,213,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:46:05,289,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:46:05,583,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:46:05] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:47:36,051,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:47:36] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:47:37,837,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:47:37] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:47:47,997,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:47:48,102,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:47:49,607,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:47:49,620,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:47:49,695,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:47:49,793,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:47:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:47:50,879,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:47:50] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:51:03,369,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:51:03,463,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:51:15,782,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:51:15,796,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:51:15,868,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:51:24,657,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:51:26,130,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:51:26,148,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:51:26,233,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:51:26,521,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:51:26] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:51:27,931,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:51:27] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:51:44,632,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:51:44,737,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:51:46,182,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:51:46,195,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:51:46,276,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:51:46,347,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:51:46] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:51:47,462,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:51:47] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:50,447,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:52:50,550,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:52:51,952,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:52:51,964,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:52:52,038,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:52:52,218,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:52] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:53,261,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:53] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:53,423,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:53] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:53,703,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:53] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:53,961,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:53] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:54,229,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:54] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:52:54,410,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:52:54] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:34,312,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:53:34,431,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:53:35,959,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:53:35,972,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:53:36,048,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:53:36,257,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:36] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:37,180,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:37] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:37,695,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:37] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:37,958,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:37] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:38,258,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:38] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:38,662,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:38] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:38,975,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:38] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:39,427,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:39] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:53:39,856,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:53:39] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:44,953,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:55:45,040,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:55:46,478,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:55:46,492,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:55:46,571,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:55:47,033,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:47] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:47,782,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:47] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:48,440,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:48] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:48,625,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:48] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:48,910,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:48] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:49,161,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:49,485,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:49,808,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:50,092,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:50] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:55:50,369,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:55:50] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:21,231,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:56:21,323,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:56:22,747,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:56:22,768,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:56:22,853,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:56:23,107,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:23] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:23,941,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:23] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:25,172,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:25,344,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:25,511,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:25,677,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:25,946,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:26,117,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:26] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:26,362,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:26] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:26,699,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:26] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:36,991,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:56:37,094,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:56:38,712,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:56:38,726,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:56:38,800,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:56:38,952,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:38] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:56,225,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:56:56,324,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:56:57,824,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:56:57,837,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:56:57,910,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:56:58,156,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:58] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:59,394,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:59] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:56:59,993,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:56:59] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:57:00,535,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:57:00] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:57:00,793,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:57:00] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:57:02,800,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:57:02] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:57:36,379,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:57:37,849,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:57:37,867,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:57:37,949,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:57:39,805,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:57:39] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:02,895,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:58:02,992,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:58:04,365,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:58:04,377,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:58:04,453,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:58:04,691,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:04] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:19,682,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:58:19,774,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:58:21,146,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:58:21,159,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:58:21,236,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:58:21,470,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:21] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:23,518,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:23] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:46,247,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:58:46,335,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:58:47,780,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:58:47,794,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:58:47,876,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:58:48,013,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:48] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:48,996,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:48] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:49,260,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:49,507,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:58:49,904,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:58:49] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:59:07,427,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:59:07,520,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:59:09,069,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:59:09,083,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:59:09,159,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:59:09,272,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:59:09] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 07:59:23,435,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 07:59:23,528,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 07:59:25,014,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 07:59:25,030,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 07:59:25,119,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 07:59:25,976,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 07:59:25] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:00:08,403,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:00:08,506,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:00:10,146,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:00:10,163,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:00:10,239,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:00:22,167,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\PYFPDF.py', reloading}}
+{'TIME':2021-12-04 08:00:22,262,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:00:23,829,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:00:23,842,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:00:23,919,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:00:24,319,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:00:24] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:00:55,385,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:00:55,481,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:00:56,872,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:00:56,885,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:00:56,959,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:00:57,102,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:00:57] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:01:02,449,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:01:02,541,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:01:03,928,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:01:03,941,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:01:04,018,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:01:04,125,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:01:04] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:02:31,127,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:02:31] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:02:43,849,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:02:43] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:03:41,256,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:03:41,349,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:03:42,743,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:03:42,758,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:03:42,846,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:03:45,020,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:03:45] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:13,316,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:04:13,405,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:04:14,792,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:04:14,804,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:04:14,879,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:04:14,975,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:14] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:16,099,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:16] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:17,248,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:17] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:17,421,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:17] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:17,702,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:17] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:17,968,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:17] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:18,327,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:18] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:18,749,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:18] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:25,932,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:04:26,023,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:04:27,449,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:04:27,462,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:04:27,542,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:04:27,831,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:27] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:04:56,772,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:04:56,872,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:04:58,245,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:04:58,258,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:04:58,333,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:04:58,578,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:04:58] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:05:07,119,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:05:07,228,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:05:08,566,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:05:08,580,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:05:08,661,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:05:08,963,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:05:08] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:08:22,689,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:08:22,812,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:08:24,310,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:08:24,323,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:08:24,397,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:08:24,584,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:08:24] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:09:31,666,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:09:31,763,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:09:33,174,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:09:33,187,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:09:33,267,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:09:33,381,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:09:33] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:10:39,419,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:10:39,513,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:10:40,991,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:10:41,002,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:10:41,076,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:10:41,259,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:10:41] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:10:53,031,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:10:53,127,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:10:54,544,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:10:54,557,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:10:54,633,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:10:54,922,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:10:54] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:11:08,784,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:11:08,871,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:11:10,523,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:11:10,543,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:11:10,633,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:11:11,855,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:11:11] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:11:59,491,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:11:59,581,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:12:00,982,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:12:00,995,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:12:01,070,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:12:01,241,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:12:01] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:12:17,415,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:12:17,539,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:12:19,000,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:12:19,013,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:12:19,086,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:12:19,161,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:12:19] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:13:06,949,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:13:06] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:26:26,708,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:26:26,805,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:26:28,606,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:26:28,622,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:26:28,720,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:26:28,914,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:26:28] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:26:48,218,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:26:48,315,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:26:49,781,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:26:49,794,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:26:49,867,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:27:14,838,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:27:14,933,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:27:16,337,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:27:16,350,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:27:16,424,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:27:16,498,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:27:16] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:27:29,675,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:27:29,794,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:27:31,148,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:27:31,162,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:27:31,236,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:27:31,535,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:27:31] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:28:47,339,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:28:47] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:29:59,834,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:29:59,935,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:30:01,648,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:30:01,663,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:30:01,739,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:30:04,004,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:30:04] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:30:47,422,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:30:47,535,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:30:49,289,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:30:49,306,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:30:49,382,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:30:50,471,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:30:50] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:31:11,124,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:31:11,210,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:31:12,628,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:31:12,642,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:31:12,718,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:31:50,599,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:31:50,715,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:31:52,223,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:31:52,239,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:31:52,333,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:31:54,031,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:31:54] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:33:24,627,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 08:33:24,719,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:33:26,095,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:33:26,110,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:33:26,184,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:33:29,714,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:33:29] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 08:33:54,521,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\PDF\\CActividad.py', reloading}}
+{'TIME':2021-12-04 08:33:54,625,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 08:33:56,132,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 08:33:56,148,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 08:33:56,223,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 08:40:20,989,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 08:40:20] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 11:26:56,144,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 11:26:56,328,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 11:26:57,963,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 11:26:57,978,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 11:26:58,063,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 11:29:02,257,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 11:29:02] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}
+{'TIME':2021-12-04 11:33:16,009,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Detected change in 'C:\\Users\\IvanC\\OneDrive - Universidad Católica de Santa María\\Escritorio\\CLANAD\\FlaskAPI\\app\\src\\JsonActividad.py', reloading}}
+{'TIME':2021-12-04 11:33:16,105,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-04 11:33:17,515,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-04 11:33:17,531,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-04 11:33:17,607,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-04 11:34:30,606,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [04/Dec/2021 11:34:30] "GET //jsonactividad/PDF HTTP/1.1" 200 -}}

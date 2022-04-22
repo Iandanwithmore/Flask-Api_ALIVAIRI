@@ -1,0 +1,39 @@
+{'TIME':2021-12-14 16:06:34,801,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-14 16:06:54,284,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-14 16:06:54,309,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-14 16:06:54,402,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-14 16:07:32,219,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-14 16:07:33,566,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-14 16:07:33,578,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-14 16:07:33,654,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-14 16:07:37,004,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:37] "POST /login HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:37,094,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:37] "GET /main?CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:38,772,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:38] "GET /actividades?CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,547,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,554,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /actividad/subtitulos?CCODPLA=72539751001&CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,563,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,563,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,586,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /actividad/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:07:40,590,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:07:40] "GET /view/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,551,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,558,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,559,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /actividad/subtitulos?CCODPLA=72539751001&CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,563,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,584,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /actividad/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:08:07,587,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:08:07] "GET /view/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:46,976,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:46] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:46,981,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:46] "GET /actividad/subtitulos?CCODPLA=72539751001&CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:46,993,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:46] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:46,993,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:46] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:47,023,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:47] "GET /actividad/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:10:47,027,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:10:47] "GET /view/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:11:53,060,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Restarting with stat}}
+{'TIME':2021-12-14 16:11:54,532,'ADDRESS':'None','URL': 'None','TYPE':'WARNING','MODULE':'_internal','MSG':{ * Debugger is active!}}
+{'TIME':2021-12-14 16:11:54,545,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Debugger PIN: 428-749-703}}
+{'TIME':2021-12-14 16:11:54,616,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{ * Running on http://127.0.0.1:4000/ (Press CTRL+C to quit)}}
+{'TIME':2021-12-14 16:14:48,870,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /plan/actividades?CCODPLA=72539751001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:14:48,878,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /actividad/subtitulos?CCODPLA=72539751001&CTIPSER=R&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:14:48,878,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /actividad/cie10?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:14:48,879,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /actividad/cmp?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:14:48,902,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /actividad/detalle?CCODACT=00000001&CCODUSU=9999 HTTP/1.1" 200 -}}
+{'TIME':2021-12-14 16:14:48,906,'ADDRESS':'None','URL': 'None','TYPE':'INFO','MODULE':'_internal','MSG':{127.0.0.1 - - [14/Dec/2021 16:14:48] "GET /view/actividad?CCODACT=00000001&CTIPSER=R&CCODPLA=72539751001&CNRODNI=99999999&CNRORUC=20125327509&CCODUSU=9999 HTTP/1.1" 200 -}}

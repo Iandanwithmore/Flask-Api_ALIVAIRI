@@ -1,0 +1,56 @@
+--
+-- PostgreSQL database dump
+--
+
+-- Dumped from database version 10.15
+-- Dumped by pg_dump version 14.0
+
+-- Started on 2021-12-28 11:24:55
+
+SET statement_timeout = 0;
+SET lock_timeout = 0;
+SET idle_in_transaction_session_timeout = 0;
+SET client_encoding = 'UTF8';
+SET standard_conforming_strings = on;
+SELECT pg_catalog.set_config('search_path', '', false);
+SET check_function_bodies = false;
+SET xmloption = content;
+SET client_min_messages = warning;
+SET row_security = off;
+
+--
+-- TOC entry 2972 (class 0 OID 158205)
+-- Dependencies: 245
+-- Data for Name: examen_back; Type: TABLE DATA; Schema: clinica; Owner: postgres
+--
+
+INSERT INTO clinica.examen_back VALUES ('500000', 'R', 'RAYOS X', 'S', NULL, 'A', '9999', '2021-11-12 13:46:09.650077', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('000000', 'T', 'TRIAJE', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('900000', 'T', 'ODONTOLOGIA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('210201', 'M', 'EKG', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('210202', 'M', 'RIESGO CARDIOVASCULAR', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('210301', 'M', 'AUDIOMETRIA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX01', 'M', 'CUESTIONARIO OSTEOMIOARTICULAR', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX02', 'M', 'EVALUACION OSTEOMIOARTICULAR ARTICULACIONES', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX03', 'M', 'CUESTIONARIO DE SINTOMAS MUSCULO TENDINOSOS', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('210101', 'M', 'CUESTIONARIO ESPRIOMETRIA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX04', 'M', 'EVALUACION MUSCULO ESQUELETICA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX05', 'M', 'EVALUACION ALTURA 1.8', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX06', 'M', 'FICHA DE SCREENING DERMATOLOGICO', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX07', 'M', 'TEST DE SOMNOLENCIA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('200301', 'M', 'INFORME PSICOLOGICO + FICHA PSICOLOGICA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('200302', 'M', 'FICHA PSICOLOGICA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('200213', 'M', 'OFTALMOLOGIA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('200214', 'M', 'OFTALMOLOGIA ESPECIALIZADA', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX08', 'M', 'NUTRICION', 'S', NULL, 'A', '9999', '2021-11-18 16:16:02.868851', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX09', 'M', 'RM 312', 'S', NULL, 'A', '9999', '2021-11-30 12:46:05.549953', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX10', 'M', 'ANEXO 16-A', 'S', NULL, 'A', '9999', '2021-12-06 11:32:50.67627', NULL, 'S');
+INSERT INTO clinica.examen_back VALUES ('XXXX11', 'M', 'ANEXO 16', 'S', NULL, 'A', '9999', '2021-12-06 11:32:50.67627', NULL, 'S');
+
+
+-- Completed on 2021-12-28 11:24:55
+
+--
+-- PostgreSQL database dump complete
+--
+

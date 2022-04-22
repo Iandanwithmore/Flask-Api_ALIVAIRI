@@ -1,0 +1,2369 @@
+{
+   "OK": 1,
+   "DATA": [
+      {
+         "NORDEN": -1,
+         "CCODIND": "M228",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M229",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M230",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M231",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M232",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M233",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M234",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M235",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M236",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M237",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M238",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M239",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M240",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M241",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO  O PIE 1",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M242",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO  O PIE 1 DETALLE",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "I"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "D"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "AMBOS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M243",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M244",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M245",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M246",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M247",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M248",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M249",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M250",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M251",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 2",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 año"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<5 años"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "6<x<10 años"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">11 años"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M252",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M253",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M254",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M255",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M256",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M257",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M258",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M259",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M260",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 3",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M261",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M262",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M263",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M264",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M265",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M266",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M267",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M268",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M269",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 4",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M270",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M271",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M272",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M273",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M274",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M275",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M276",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M277",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M278",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 5",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "u"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "siempre"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M279",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M280",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M281",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M282",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M283",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M284",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M285",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M286",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M287",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 6",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "<1 hora"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<24 horas"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M288",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M289",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M290",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M291",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M292",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M293",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M294",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M295",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M296",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 7",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "0 dias"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "1<x<7 dias"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "1<x<4 semanas"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": ">1 mes"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M297",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M298",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M299",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M300",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M301",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M302",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M303",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M304",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M305",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 8",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M306",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M307",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M308",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M309",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M310",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M311",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M312",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M313",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M314",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 9",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "B",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M315",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M316",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M317",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M318",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M319",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M320",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M321",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M322",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M323",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 10",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "1"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "2"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "3"
+            },
+            {
+               "CCODIGO": "4",
+               "CDESCRI": "4"
+            },
+            {
+               "CCODIGO": "5",
+               "CDESCRI": "5"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M324",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M325",
+         "CIMPRIM": "CUESTIONARIO SMT CUELLO 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M326",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M327",
+         "CIMPRIM": "CUESTIONARIO SMT HOMBRO 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M328",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M329",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA DORSAL 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M330",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M331",
+         "CIMPRIM": "CUESTIONARIO SMT COLUMNA LUMBAR 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M332",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M333",
+         "CIMPRIM": "CUESTIONARIO SMT CODO O ANTEBRAZO 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M334",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M335",
+         "CIMPRIM": "CUESTIONARIO SMT MUÑECA O MANO 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M336",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M337",
+         "CIMPRIM": "CUESTIONARIO SMT CADERA O MUSLO 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M338",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M339",
+         "CIMPRIM": "CUESTIONARIO SMT RODILLA 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M340",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 11",
+         "CVALPRE": "0",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "S",
+         "CRESULT": "0",
+         "NOPCION": 0,
+         "MTABLA": [
+            {
+               "CCODIGO": "1",
+               "CDESCRI": "TRABAJO"
+            },
+            {
+               "CCODIGO": "2",
+               "CDESCRI": "DEPORTES"
+            },
+            {
+               "CCODIGO": "3",
+               "CDESCRI": "OTROS"
+            }
+         ]
+      },
+      {
+         "NORDEN": -1,
+         "CCODIND": "M341",
+         "CIMPRIM": "CUESTIONARIO SMT TOBILLO O PIE 11 OTROS",
+         "CVALPRE": "",
+         "CDESUNI": "",
+         "CRANGO": "-",
+         "FHTML": "I",
+         "CRESULT": "",
+         "NOPCION": 0,
+         "MTABLA": null
+      }
+   ]
+}
