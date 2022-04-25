@@ -15,7 +15,7 @@ class Config:
 
     LOG_FILE = PROJECT_DIR + "/log/api_server.log"
     PATH_PDF_SRC = APP_DIR + "/PDF/assets"
-    PATH_FILE = "C:/xampp/htdocs/CLANAD/Docs/PACIENTE"
+    PATH_FILE = "var/Docs/PACIENTE"
 
     ALLOWED_EXTENSIONS = {"pdf", "png", "jpg", "jpeg", "csv"}
     MAX_CONTENT_LENGTH = 16000
