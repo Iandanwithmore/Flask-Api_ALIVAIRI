@@ -10,8 +10,8 @@ loBase = CBase()
 
 TablaTablas = Blueprint("TablaTablas", __name__)
 
-
-@TablaTablas.route("/tablatablas/<string:p_cCodigo>", methods=["GET", "POST"])
+@TablaTablas.get("/tablatablas/<string:p_cCodigo>")
+@TablaTablas.post("/tablatablas")
 @user_required
 @exception_handler_request
 def get_triaje_by(p_cCodigo):
@@ -25,8 +25,7 @@ def get_triaje_by(p_cCodigo):
             )
         )
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise ValueError("SIN RESULTADOS TABLA DE TABLAS")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         L1 = ["CCODIGO", "CDESCRI"]
         L2 = loSql.data
         R1["DATA"] = [dict(zip(L1, item)) for item in L2]
@@ -35,10 +34,8 @@ def get_triaje_by(p_cCodigo):
         laData = request.get_json()
         lcSql = "SELECT Clinica.P_T001('{}')".format(laData)
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise AttributeError("RESPUESTA VACIA")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         laFila = loSql.data
-        if not loBase.json_to_str(laFila[0][0]):
-            raise ValueError("ERROR EN EJECUCION")
+        assert not loBase.json_to_str(laFila[0][0]),"ERROR AL TRANSFORMAR A JSON"
         R1 = json.loads(laFila[0][0])
     return jsonify(R1), 200

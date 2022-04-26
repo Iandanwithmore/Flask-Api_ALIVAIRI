@@ -1,5 +1,3 @@
-import traceback
-
 from app.decorators import exception_handler_request, user_required
 from flask import Blueprint, jsonify, request
 
@@ -11,14 +9,12 @@ loBase = CBase()
 
 Persona = Blueprint("persona", __name__)
 
-
-@Persona.route("/persona", methods=["GET"])
+@Persona.get("/persona")
 @user_required
 @exception_handler_request
 def persona():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not ("CNRODNI" in request.args or "CNRODOC" in request.args):
-        raise ValueError("NUMERO DE DOCUMENTO NO DEFINIDO")
+    assert not ("CNRODNI" in request.args or "CNRODOC" in request.args), "NUMERO DE DOCUMENTO NO DEFINIDO"
     if "CNRODNI" not in request.args:
         lcSearch = f"cnrodoc = '{request.args['CNRODOC']}' LIMIT 1"
     else:
@@ -41,8 +37,7 @@ def persona():
         + lcSearch
     )
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CTIPDOC",
         "CDESDOC",
@@ -74,8 +69,8 @@ def persona():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2][0]
     return jsonify(R1), 200
 
-
-@Persona.route("/persona/huella/<string:p_cNroDni>", methods=["GET", "POST"])
+@Persona.get("/persona/huella/<string:p_cNroDni>")
+@Persona.post("/persona/huella/<string:p_cNroDni>")
 @user_required
 @exception_handler_request
 def download_huella(p_cNroDni):
@@ -83,34 +78,30 @@ def download_huella(p_cNroDni):
         raise ValueError("SUBRUTAS NO PERMITIDAS")
     if request.method == "GET":
         lcFile = loBase.download(p_cNroDni, "HUELLA.jpg")
-        if not lcFile:
-            raise ValueError("ERROR AL DESCARGAR EL ARCHIVO")
+        assert not lcFile, "ERROR AL DESCARGAR EL ARCHIVO"
         return lcFile
     elif request.method == "POST":
         if "p_cFile" not in request.files:
             return jsonify({"OK": 0, "DATA": "NO FILE"})
         file = request.files["p_cFile"]
         lcFile = loBase.upload(file, p_cNroDni, "HUELLA.jpg")
-        if not lcFile:
-            raise ValueError(loBase.error)
+        assert not lcFile, loBase.error
         return jsonify({"OK": 1, "DATA": "ARCHIVO SUBIDO EXITOSAMENTE"})
 
-
-@Persona.route("/persona/firma/<string:p_cNroDni>", methods=["GET", "POST"])
+@Persona.get("/persona/firma/<string:p_cNroDni>")
+@Persona.post("/persona/firma/<string:p_cNroDni>")
 @user_required
 def updaload_huella(p_cNroDni):
     if "/" in p_cNroDni:
         raise ValueError("SUBRUTAS NO PERMITIDAS")
     if request.method == "GET":
         lcFile = loBase.download(p_cNroDni, "HUELLA.jpg")
-        if not lcFile:
-            raise ValueError("ERROR AL DESCARGAR EL ARCHIVO")
+        assert not lcFile, "ERROR AL DESCARGAR EL ARCHIVO"
         return lcFile
     elif request.method == "POST":
         if "p_cFile" not in request.files:
             return jsonify({"OK": 0, "DATA": "NO FILE"})
         file = request.files["p_cFile"]
         lcFile = loBase.upload(file, p_cNroDni, "HUELLA.jpg")
-        if not lcFile:
-            raise ValueError(loBase.error)
+        assert not lcFile, loBase.error
         return jsonify({"OK": 1, "DATA": "ARCHIVO SUBIDO EXITOSAMENTE"})

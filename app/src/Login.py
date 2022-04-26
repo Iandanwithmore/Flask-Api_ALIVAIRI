@@ -10,30 +10,25 @@ loBase = CBase()
 
 Login = Blueprint("Login", __name__)
 
-
-@Login.route("/login", methods=["POST"])
+@Login.post("/login")
 @exception_handler_request
 def login():
     R1 = {"OK": 1, "DATA": "OK"}
     laData = request.get_json()
     lcSql = "SELECT Login('{}')".format(laData)
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     laFila = loSql.data
-    if not loBase.json_to_str(laFila[0][0]):
-        raise ValueError("ERROR EN DECODIFICACION")
+    assert not loBase.json_to_str(laFila[0][0]),"ERROR AL TRANSFORMAR A JSON"
     R1 = json.loads(laFila[0][0])
     return jsonify(R1), 200
 
-
-@Login.route("/main", methods=["GET"])
+@Login.get("/main")
 @user_required
 @exception_handler_request
 def main():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODUSU"]):
-        raise ValueError("CREDENCIALES NO ENCONTRADAS")
+    assert not request.args["CCODUSU"], "CREDENCIALES NO ENCONTRADAS"
     lcCodUsu = request.args["CCODUSU"]
     lcSql = f"""SELECT cCodOpc, cDescri, COALESCE(cSvgPat, 'null')  
             FROM Opcion WHERE _nIdApp = 3 AND 
@@ -44,8 +39,7 @@ def main():
                 WHERE A._cCodUsu = '{lcCodUsu}'
             )"""
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CCODOPC", "CDESCRI", "CSVGPAT"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]

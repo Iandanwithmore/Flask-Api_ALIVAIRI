@@ -1,7 +1,5 @@
-import asyncio
 import json
 import os
-import traceback
 
 import requests
 from app.CBase import CBase
@@ -14,35 +12,7 @@ loBase = CBase()
 
 PlanActividad = Blueprint("plan", __name__)
 
-
-def get_or_create_eventloop():
-    try:
-        return asyncio.get_event_loop()
-    except RuntimeError as ex:
-        if "There is no current event loop in thread" in str(ex):
-            loop = asyncio.new_event_loop()
-            asyncio.set_event_loop(loop)
-            return asyncio.get_event_loop()
-
-
-def fetch_async(urls):
-    """Fetch list of web pages asynchronously."""
-    loop = get_or_create_eventloop()  # event loop
-    future = asyncio.ensure_future(fetch_all(urls, loop))  # tasks to do
-    done = loop.run_until_complete(future)  # loop until done
-    return done
-
-
-async def fetch_all(urls, loop):
-    tasks = []  # dictionary of start times for each url
-    for url in urls:
-        task = loop.run_in_executor(None, requests.get, url)
-        tasks.append(task)  # create list of tasks
-    done = await asyncio.gather(*tasks)  # gather task responses
-    return done
-
-
-@PlanActividad.route("/planes", methods=["GET"])
+@PlanActividad.get("/planes")
 @user_required
 @exception_handler_request
 def planes():
@@ -61,8 +31,7 @@ def planes():
     LEFT OUTER JOIN Empresa_CentroDistribucion F ON F.cCenDis = A._cCenDis AND F._cNroRuc = A._cNroRuc 
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CCODPLA",
         "CBAUCHE",
@@ -86,14 +55,12 @@ def planes():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan", methods=["GET"])
+@PlanActividad.get("/plan")
 @user_required
 @exception_handler_request
 def plan():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODPLA"]):
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert not request.args["CCODPLA"], "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT A.cCodPla, COALESCE(A._cVauche,'-'),
         A.c_TipPla, B.cDescri AS cDesTip,
@@ -112,8 +79,7 @@ def plan():
     LIMIT 1
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CCODPLA",
         "CBAUCHE",
@@ -135,14 +101,12 @@ def plan():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2][0]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/experiencia_laboral", methods=["GET"])
+@PlanActividad.get("/plan/experiencia_laboral")
 @user_required
 @exception_handler_request
 def planotrasactividades():
     R1 = {"OK": 1, "DATA": "OK"}
-    if "CCODPLA" not in request.args:
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert "CCODPLA" not in request.args, "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT tIniAct,
         tFinAct,
@@ -165,9 +129,7 @@ def planotrasactividades():
     AND c_Estado = 'A'
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
-
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "TINIACT",
         "TFINACT",
@@ -190,14 +152,12 @@ def planotrasactividades():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/hoja_ruta", methods=["GET"])
+@PlanActividad.get("/plan/hoja_ruta")
 @user_required
 @exception_handler_request
 def plan_hoja_ruta():
     R1 = {"OK": 1, "DATA": "OK"}
-    if "CCODPLA" not in request.args:
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert "CCODPLA" not in request.args, "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT A.c_TipSer, D.cDescri, A.cCodAct, A._cNroDni, A.c_Estado, STRING_AGG(C.cDescri, ',')
         FROM Clinica.Actividad A
@@ -209,9 +169,7 @@ def plan_hoja_ruta():
     ORDER BY A.c_TipSer
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
-
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CTIPSER",
         "CDESSER",
@@ -234,14 +192,12 @@ def plan_hoja_ruta():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/examenes", methods=["GET"])
+@PlanActividad.get("/plan/examenes")
 @user_required
 @exception_handler_request
 def plan_examenes():
     R1 = {"OK": 1, "DATA": "OK"}
-    if "CCODPLA" not in request.args:
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert "CCODPLA" not in request.args, "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT A.c_TipSer, D.cDescri, A.cCodAct, B._cCodExa, C.cDescri AS  cDesExa, A._cNroDni, A.c_Estado
         FROM Clinica.Actividad A
@@ -252,9 +208,7 @@ def plan_examenes():
     ORDER BY A.c_TipSer
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
-
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CTIPSER",
         "CDESSER",
@@ -268,56 +222,48 @@ def plan_examenes():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/cie10", methods=["GET"])
+@PlanActividad.get("/plan/cie10")
 @user_required
 @exception_handler_request
 def plancie10():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODPLA"]):
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert not request.args["CCODPLA"], "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT B.cCodCie, B.cDescri FROM Clinica.Cie10Actividad A
     INNER JOIN Clinica.Cie10 B ON B.cCodCie = A._cCodCie
     WHERE A._cCodPla ='{request.args['CCODPLA']}'
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CCODIGO", "CDESCRI"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/extras", methods=["GET"])
+@PlanActividad.get("/plan/extras")
 @user_required
 @exception_handler_request
 def planextras():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODPLA"]):
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert not request.args["CCODPLA"], "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT A.c_Tipo, B.cDescri||': '||A.cDescri FROM Clinica.ExtraActividad A 
     LEFT OUTER JOIN V_TABLATABLAS_1 B ON B.cCodTab = '017' AND TRIM(B.cCodigo) = A.c_Tipo
     WHERE A._cCodPla ='{request.args['CCODPLA']}'
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CTIPO", "CDESCRI"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/consentientos", methods=["GET"])
+@PlanActividad.get("/plan/consentientos")
 @user_required
 @exception_handler_request
 def planconsentientos():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODPLA"]):
-        raise ValueError("CODIGO DE PLAN NO DEFINIDO")
+    assert not request.args["CCODPLA"], "CODIGO DE PLAN NO DEFINIDO"
     lcSql = f"""
     SELECT B.cCodigo, B.cDescri
     FROM Clinica.ConsentimientoPlan A
@@ -325,15 +271,13 @@ def planconsentientos():
     WHERE A._cCodPla ='{request.args['CCODPLA']}'
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CCODIGO", "CDESCRI"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@PlanActividad.route("/plan/PDF", methods=["GET"])
+@PlanActividad.get("/plan/PDF")
 @user_required
 @exception_handler_request
 def PDF_plan_actividad(data=None):
@@ -346,8 +290,7 @@ def PDF_plan_actividad(data=None):
         laData = json.loads(data)
     ploads = ["CCODPLA", "CCODUSU"]
     for item in ploads:
-        if item not in laData:
-            raise ValueError(f"VARIABLE NO DEFINIDA : '{item}'")
+        assert item not in laData, f"VARIABLE NO DEFINIDA : '{item}'"
     lcCodPla = laData["CCODPLA"]
     lcCodUsu = laData["CCODUSU"]
     urls = [
@@ -370,9 +313,5 @@ def PDF_plan_actividad(data=None):
     loConsentimiento.setConsentimiento(R0[1]["DATA"])
     loConsentimiento.setExamenes(R0[2]["DATA"])
     llOK = loConsentimiento.print_consentimiento()
-    if not llOK:
-        err = "ALGO SALIO MAL AL IMPRIMIR"
-        if loConsentimiento.error is not None and loConsentimiento.error != "":
-            err = loConsentimiento.error
-        raise ValueError(err)
+    assert not llOK, loConsentimiento.error
     return jsonify(R1), 200

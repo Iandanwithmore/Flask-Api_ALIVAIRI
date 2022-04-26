@@ -404,9 +404,8 @@ class CActividad(CBase):
         self.cmp = []
         ploads = {"CCODPLA": self.paData["CCODACT"], "CCODUSU": "0000"}
         llOk = requests.get(Config.API_URL + "/actividad/cmp", params=ploads).json()
-        if not llOk["OK"]:
-            raise AssertionError(llOk["DATA"])
-        self.cmp = llOk["DATA"]
+        if llOk["OK"]:
+            self.cmp = llOk["DATA"]
         return True
 
     @exception_handler(False)
@@ -434,9 +433,8 @@ class CActividad(CBase):
         self.cie10 = []
         ploads = {"CCODPLA": self.paData["CCODACT"], "CCODUSU": "0000"}
         llOk = requests.get(Config.API_URL + "/actividad/cie10", params=ploads).json()
-        if not llOk["OK"]:
-            raise AssertionError(llOk["DATA"])
-        self.cie10 = llOk["DATA"]
+        if llOk["OK"]:
+            self.cie10 = llOk["DATA"]
         return True
 
     @exception_handler(False)
@@ -477,14 +475,10 @@ class CActividad(CBase):
         ploads = {"CCODACT": self.paData["CCODACT"], "CCODUSU": "0000"}
         llOk = requests.get(Config.API_URL + "/actividad/extra", params=ploads).json()
         if not llOk["OK"]:
-            raise AssertionError(llOk["DATA"])
-        self.extras = llOk["DATA"]
-        if self.extras["MOBSERV"] is None:
             self.extras["MOBSERV"] = ""
-        if self.extras["MRECOME"] is None:
             self.extras["MRECOME"] = ""
-        if self.extras["MCONCLU"] is None:
-            self.extras["MCONCLU"] = ""
+            self.extras["MRECOME"] = ""
+        self.extras = llOk["DATA"]
         return True
 
     @exception_handler(False)

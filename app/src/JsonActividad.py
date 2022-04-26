@@ -13,8 +13,7 @@ loBase = CBase()
 
 JsonActividad = Blueprint("Jsonactividad", __name__)
 
-
-@JsonActividad.route("/jsonactividad/PDF", methods=["GET"])
+@JsonActividad.get("/jsonactividad/PDF")
 @exception_handler_request
 def PDF_JsonActividad():
     R1 = {"OK": 1, "DATA": "OK"}
@@ -149,8 +148,7 @@ def PDF_JsonActividad():
             raise ValueError(loActividad.error)
     return jsonify(R1), 200
 
-
-@JsonActividad.route("/hemograma/subir", methods=["GET"])
+@JsonActividad.get("/hemograma/subir")
 @exception_handler_request
 def Hemograma_Actividad():
     R1 = {"OK": 1, "DATA": "OK"}

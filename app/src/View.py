@@ -11,8 +11,7 @@ loBase = CBase()
 
 View = Blueprint("view", __name__)
 
-
-@View.route("/view/actividades", methods=["GET"])
+@View.get("/view/actividades")
 # @user_required
 @exception_handler_request
 def view_actividades():
@@ -48,8 +47,7 @@ def view_actividades():
         + lcSearch
     )
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise ValueError(f"RESPUESTA VACIA:{lcSql}")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CCODACT",
         "TCITA",
@@ -99,14 +97,12 @@ def view_actividades():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@View.route("/view/actividad", methods=["GET"])
+@View.get("/view/actividad")
 # @user_required
 @exception_handler_request
 def view_actividad():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODACT"]):
-        raise ValueError("CODIGO DE LA ACTIVIDAD NO DEFINIDO")
+    assert not request.args["CCODACT"], "CODIGO DE LA ACTIVIDAD NO DEFINIDO"
     lcSql = f"""
     SELECT cCodAct, tActCit, tActAte, tActFin, cCodPla, cUsuCod,
         c_TipSer, cDesSer,
@@ -121,8 +117,7 @@ def view_actividad():
     LIMIT 1
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CCODACT",
         "TCITA",
@@ -173,14 +168,12 @@ def view_actividad():
     R1["DATA"] = [dict(zip(L1, item)) for item in L2][0]
     return jsonify(R1), 200
 
-
-@View.route("/view/plan", methods=["GET"])
+@View.get("/view/plan")
 # @user_required
 @exception_handler_request
 def view_plan():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODPLA"]):
-        raise ValueError("CODIGO DE LA ACTIVIDAD NO DEFINIDO")
+    assert not request.args["CCODPLA"], "CODIGO DE LA ACTIVIDAD NO DEFINIDO"
     lcSql = f"""
     SELECT cCodPla, tGenera, tFinAdm, tFinPla, cUsuCod,
         cDesDoc, cNroDni, cNroDoc, cNombres, tNacimi, nEdad, cDesSex,
@@ -194,8 +187,7 @@ def view_plan():
     LIMIT 1
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = [
         "CCODPLA",
         "TGENERA",

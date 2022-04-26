@@ -1,15 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import traceback
 from pathlib import Path
 
-import requests
 from app.CBase import CBase
 from app.config import Config
 from app.decorators import exception_handler
 from app.PDF.PYFPDF import PYFPDF
-
-
 class CConsentimiento(CBase):
     loBase = CBase()
 

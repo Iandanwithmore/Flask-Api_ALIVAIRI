@@ -4,8 +4,6 @@ from pathlib import Path
 
 from app.config import Config
 from fpdf import FPDF
-
-
 class PYFPDF(FPDF):
     def __init__(self):
         FPDF.__init__(self, "P", "cm", "A4")

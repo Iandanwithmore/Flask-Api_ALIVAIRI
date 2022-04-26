@@ -12,40 +12,29 @@ loBase = CBase()
 
 Actividad = Blueprint("actividad", __name__)
 
-# current_app.logger.error(
-#    f"'USER':{lcCodUsu}, 'DATA': {str(err)}, 'DETAIL':{traceback.print_exc()}"
-# )
-
-
-@Actividad.route("/actividad/examenes", methods=["GET"])
+@Actividad.get("/actividad/examenes")
 @user_required
 @exception_handler_request
 def examenes():
     R1 = {"OK": 1, "DATA": "OK"}
-    if "CCODACT" not in request.args:
-        raise ValueError("CODIGO DE LA ACTIVIDAD NO DEFINIDO")
+    assert "CCODACT" not in request.args,"CODIGO DE LA ACTIVIDAD NO DEFINIDO"
     lcSql = f"""SELECT B.cCodExa, B.c_TipSer, B.cDescri FROM Clinica.PlantillaActividad A
         INNER JOIN clinica.Examen B ON B.cCodExa = A._cCodExa
         WHERE A._cCodAct = '{request.args['CCODACT']}'"""
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        R1["DATA"] = ["TITULO"]
-        # raise ValueError('RESPUESTA VACIA')
-    else:
-        L1 = ["CCODIGO", "CTIPSER", "CDESCRI"]
-        L2 = loSql.data
-        R1["DATA"] = [dict(zip(L1, item)) for item in L2]
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
+    L1 = ["CCODIGO", "CTIPSER", "CDESCRI"]
+    L2 = loSql.data
+    R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     R1["OK"] = 1
     return jsonify(R1), 200
 
-
-@Actividad.route("/actividad/extra", methods=["GET"])
+@Actividad.get("/actividad/extra")
 @user_required
 @exception_handler_request
 def extras():
     R1 = {"OK": 1, "DATA": "OK"}
-    if "CCODACT" not in request.args:
-        raise ValueError("CODIGO DEL ACTIVIDAD NO DEFINIDO")
+    assert "CCODACT" not in request.args, "CODIGO DEL ACTIVIDAD NO DEFINIDO"
     lcCodAct = request.args["CCODACT"]
     lcSql = f"""
         SELECT COALESCE(
@@ -64,32 +53,27 @@ def extras():
             WHERE _cCodAct = '{lcCodAct}' AND c_Tipo = 'C'), NULL)
     """
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        R1["DATA"] = {"COBSERV": None, "CRECOME": None, "CCONCLU": None}
-    else:
-        R1["DATA"] = {
-            "COBSERV": None if loSql.data[0][0] is None else loSql.data[0][0],
-            "CRECOME": None if loSql.data[1][0] is None else loSql.data[1][0],
-            "CCONCLU": None if loSql.data[2][0] is None else loSql.data[2][0],
-        }
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
+    R1["DATA"] = {
+        "COBSERV": None if loSql.data[0][0] is None else loSql.data[0][0],
+        "CRECOME": None if loSql.data[1][0] is None else loSql.data[1][0],
+        "CCONCLU": None if loSql.data[2][0] is None else loSql.data[2][0],
+    }
     return jsonify(R1), 200
 
-
-@Actividad.route("/actividad/detalle", methods=["GET", "POST"])
+@Actividad.get("/actividad/detalle")
+@Actividad.post("/actividad/detalle")
 @user_required
 @exception_handler_request
 def detalleActividad():
     R1 = {"OK": 1, "DATA": "OK"}
     if request.method == "GET":
-        if "CCODACT" not in request.args:
-            raise ValueError("CODIGO DE LA ACTIVIDAD NO DEFINIDO")
+        assert "CCODACT" not in request.args, "CODIGO DE LA ACTIVIDAD NO DEFINIDO"
         lcSql = f"SELECT Clinica.detalleActividad('{request.args['CCODACT']}')"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise AttributeError("RESPUESTA VACIA")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         laFila = loSql.data
-        if not loBase.json_to_str(laFila[0][0]):
-            raise ValueError("ERROR EN EJECCION")
+        assert not loBase.json_to_str(laFila[0][0]),"ERROR AL TRANSFORMAR A JSON"
         R1 = json.loads(laFila[0][0])
     elif request.method == "POST":
         laData = json.loads(request.get_json())
@@ -104,37 +88,29 @@ def detalleActividad():
         ]
         dict_data = {}
         for item in ploads:
-            if item not in laData:
-                raise ValueError(f"VARIABLE NO DEFINIDA : '{item}'")
-            else:
-                dict_data[item] = laData[item]
+            assert item not in laData, f"VARIABLE NO DEFINIDA : '{item}'"
+            dict_data[item] = laData[item]
         lcSql = f"SELECT Clinica.grabarDetalleActividad('{json.dumps(laData)}')"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise AttributeError("RESPUESTA VACIA")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         laFila = loSql.data
-        if not loBase.json_to_str(laFila[0][0]):
-            raise ValueError("ERROR EN EJECCION")
+        assert not loBase.json_to_str(laFila[0][0]),"ERROR AL TRANSFORMAR A JSON"
         R1 = json.loads(laFila[0][0])
         if R1["OK"]:
             PDF_Actividad(json.dumps(laData))
     return jsonify(R1), 200
 
-
-@Actividad.route("/actividad/print/detalle", methods=["GET"])
+@Actividad.get("/actividad/print/detalle")
 @user_required
 @exception_handler_request
 def print_detalleActividad():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CCODACT"]):
-        raise ValueError("CODIGO DE LA ACTIVIDAD NO DEFINIDO")
+    assert "CCODACT" not in request.args, "CODIGO DEL ACTIVIDAD NO DEFINIDO"
     lcSql = f"SELECT Clinica.detalleActividadPrint('{request.args['CCODACT']}')"
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     laFila = loSql.data
-    if not loBase.json_to_str(laFila[0][0]):
-        raise ValueError("ERROR EN EJECCION")
+    assert not loBase.json_to_str(laFila[0][0]),"ERROR AL TRANSFORMAR A JSON"
     R1 = json.loads(laFila[0][0])
     return jsonify(R1), 200
 
@@ -151,8 +127,7 @@ def PDF_Actividad(data=None):
         laData = json.loads(data)
     ploads = ["CCODACT", "CNRODNI", "CCODUSU"]
     for item in ploads:
-        if item not in laData:
-            raise ValueError(f"VARIABLE NO DEFINIDA : '{item}'")
+        assert item not in laData, f"VARIABLE NO DEFINIDA : '{item}'"
     lcCodAct = laData["CCODACT"]
     lcCodUsu = laData["CCODUSU"]
     lcNroDni = laData["CNRODNI"]
@@ -188,8 +163,7 @@ def PDF_Actividad(data=None):
         raise ValueError(err)
     return jsonify(R1), 200
 
-
-@Actividad.route("/cie10", methods=["GET"])
+@Actividad.get('/cie10')
 @user_required
 @exception_handler_request
 def buscar_cie10():
@@ -198,85 +172,67 @@ def buscar_cie10():
         raise ValueError("PARAMETRO DE BUSQUEDA NO DEFINIDO")
     lcSql = f"SELECT cCodCie, cDescri FROM Clinica.Cie10 WHERE TRIM(cCodCie) = '{request.args['CPARAME']}' OR cDescri LIKE '%{request.args['CPARAME']}%'"
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CCODIGO", "CDESCRI"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     return jsonify(R1), 200
 
-
-@Actividad.route("/actividad/cie10", methods=["GET"])
+@Actividad.get('/actividad/cie10')
 @user_required
 @exception_handler_request
 def cie10_actividad():
     R1 = {"OK": 1, "DATA": "OK"}
     if request.method == "GET":
-        if not (request.args["CCODACT"]):
-            raise ValueError("CODIGO ACTIVIDAD NO DEFINIDO")
+        assert not request.args["CCODACT"], "CODIGO ACTIVIDAD NO DEFINIDO"
         lcSql = f"SELECT B.cCodCie, B.cDescri FROM Clinica.Cie10Actividad A INNER JOIN Clinica.Cie10 B ON B.cCodCie = A._cCodCie WHERE A._cCodAct = '{request.args['CCODACT']}'"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise AssertionError("RESPUESTA VACIA")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         L1 = ["CCODIGO", "CDESCRI"]
         L2 = loSql.data
         R1["DATA"] = [dict(zip(L1, item)) for item in L2]
     elif request.method == "POST":
         laData = request.get_json()
-        if not (laData["CCODACT"]):
-            raise ValueError("CODIGO ACTVIDAD NO DEFINIDO")
-        if not (laData["CCODIGO"]):
-            raise ValueError("CODIGO CIE10 NO DEFINIDO")
-        if not (laData["CCODPLA"]):
-            raise ValueError("CODIGO PLAN NO DEFINIDO")
+        ploads = ["CCODACT", "CCODIGO", "CCODPLA"]
+        for item in ploads:
+            assert item not in laData, f"VARIABLE NO DEFINIDA : '{item}'"
         lcSql = f"INSERT INTO Clinica.Cie10Actividad (_cCodCie, _cCodAct. _cCodPla, _cUsuCod) VALUES ('{request.args['CCODIGO']}','{request.args['CCODACT']}''{request.args['CCODPLA']}','{request.args['CUSUCOD']}') ON CONFLICT DO NOTHING"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise ValueError("CIE NO INGRESADO EN LA ACTIVIDAD")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     return jsonify(R1), 200
 
-
-@Actividad.route("/actividad/cmp", methods=["GET"])
+@Actividad.get('/actividad/cmp')
 @user_required
 @exception_handler_request
 def cmp_actividad():
     R1 = {"OK": 1, "DATA": "OK"}
     if request.method == "GET":
-        if not (request.args["CCODACT"]):
-            raise ValueError("CODIGO ACTIVIDAD NO DEFINIDO")
+        assert not (request.args["CCODACT"]), "CODIGO ACTIVIDAD NO DEFINIDO"
         lcSql = f"SELECT B.cCodCMP, B.cDescri FROM Clinica.CMPActividad A INNER JOIN Clinica.CMP B ON B.cCodCmp = A._cCodCmp WHERE A._cCodAct = '{request.args['CCODACT']}'"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise AttributeError("RESPUESTA VACIA")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
         L1 = ["CCODIGO", "CDESCRI"]
         L2 = loSql.data
         R1["DATA"] = [dict(zip(L1, item)) for item in L2][0]
     elif request.method == "POST":
         laData = request.get_json()
-        if not (laData["CCODACT"]):
-            raise ValueError("CODIGO ACTVIDAD NO DEFINIDO")
-        if not (laData["CCODIGO"]):
-            raise ValueError("CODIGO CIE10 NO DEFINIDO")
-        if not (laData["CCODPLA"]):
-            raise ValueError("CODIGO PLAN NO DEFINIDO")
+        ploads = ["CCODACT", "CCODIGO", "CCODPLA"]
+        for item in ploads:
+            assert item not in laData, f"VARIABLE NO DEFINIDA : '{item}'"
         lcSql = f"INSERT INTO Clinica.Cie10Actividad (_cCodCie, _cCodAct. _cCodPla, _cUsuCod) VALUES ('{request.args['CCODIGO']}','{request.args['CCODACT']}''{request.args['CCODPLA']}','{request.args['CUSUCOD']}')"
         loSql.ExecRS(lcSql)
-        if loSql.data is None or len(loSql.data) == 0:
-            raise ValueError("CIE NO INGRESADO EN LA ACTIVIDAD")
+        assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     return jsonify(R1), 200
 
-
-@Actividad.route("/cmp", methods=["GET"])
+@Actividad.get('/cmp')
 @user_required
 @exception_handler_request
 def buscar_cmp():
     R1 = {"OK": 1, "DATA": "OK"}
-    if not (request.args["CPARAME"]):
-        raise ValueError("PARAMETRO DE BUSQUEDA NO DEFINIDO")
+    assert not request.args["CPARAME"], "PARAMETRO DE BUSQUEDA NO DEFINIDO"
     lcSql = f"SELECT cCodCMP, cDescri FROM Clinica.cmp WHERE TRIM(ccodcmp) = '{request.args['CPARAME']}' OR cDescri LIKE '%{request.args['CPARAME']}%'"
     loSql.ExecRS(lcSql)
-    if loSql.data is None or len(loSql.data) == 0:
-        raise AttributeError("RESPUESTA VACIA")
+    assert(loSql.data is None or len(loSql.data) == 0), f"RESPUESTA VACIA:\n{lcSql}"
     L1 = ["CCODIGO", "CDESCRI"]
     L2 = loSql.data
     R1["DATA"] = [dict(zip(L1, item)) for item in L2]
