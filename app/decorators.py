@@ -1,6 +1,7 @@
 import functools
 import inspect
 import traceback
+from timeit import default_timer as timer
 
 from flask import abort, current_app, jsonify, request
 
@@ -73,3 +74,12 @@ def exception_handler(error_response):
         return inner_function
 
     return factory_exception
+
+
+def monitor_elapsed_time(func):
+    def wrapper(*args, **kwargs):
+        start = timer()
+        func(*args, **kwargs)
+        print(f"Time elapsed: {timer() - start}")
+
+    return wrapper

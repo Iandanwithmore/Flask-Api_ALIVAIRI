@@ -1,0 +1,256 @@
+# coding: utf-8
+from sqlalchemy import CHAR, Column, Date, DateTime, Float, ForeignKey, Integer, SmallInteger, String, Table, Text, text
+from sqlalchemy.orm import relationship
+from sqlalchemy.ext.declarative import declarative_base
+
+Base = declarative_base()
+metadata = Base.metadata
+
+
+class Departamento(Base):
+    __tablename__ = 'departamento'
+
+    ccoddep = Column(CHAR(2), primary_key=True)
+    cdescri = Column(CHAR(30), nullable=False)
+
+
+class Distrito(Base):
+    __tablename__ = 'distrito'
+
+    ccoddis = Column(CHAR(6), primary_key=True)
+    cdescri = Column(CHAR(45), nullable=False)
+
+
+t_p_cresult = Table(
+    'p_cresult', metadata,
+    Column('cdescri', String(100))
+)
+
+
+class Persona(Base):
+    __tablename__ = 'persona'
+    __table_args__ = {'comment': 'Maestro de Personas, alberga datos escenciales persona'}
+
+    cnrodni = Column(CHAR(8), primary_key=True, comment='Numero de documento unico de la persona, en caso de otros documentos se antepone el tipo y los ultimos 7 digitos de su documento')
+    c_tipdoc = Column(CHAR(1), nullable=False, comment='Codigo de Tipo de Documento asociado a TablaTablas[]')
+    cnrodoc = Column(String(15), nullable=False, comment='Numero de Documento')
+    cnombre = Column(String(200), nullable=False, comment='Nombre de la persona formato APELLIDO PATERNO/APELLIDO MATERNO/NOMBRES')
+    c_genero = Column(CHAR(1), nullable=False, comment='Codigo de Sexo asociado a TablaTablas[]')
+    tnacimi = Column(Date, nullable=False, server_default=text("'2020-01-01'::date"), comment='Numero de Documento')
+    _ccoddis = Column(ForeignKey('distrito.ccoddis', ondelete='RESTRICT', onupdate='CASCADE'), server_default=text("'040101'::bpchar"), comment='Referencia a tabla Distritos')
+    cdirecc = Column(String(300), comment='Numero de Documento')
+    ccorreo = Column(String(300), comment='Correos asociados a la persona separados por comas')
+    cnrocel = Column(String(24), comment='Numeros asociados a la persona separados por comas')
+    cclave = Column(CHAR(128), nullable=False, comment='Clave en SHA512')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), comment='Referencia a la tabla Usuario, Usuario que registra')
+    tgenera = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Generacion')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+    c_tipseg = Column(CHAR(1), server_default=text("'N'::bpchar"), comment='Codigo de Tipo de seguro asociado a TablaTablas[]')
+
+    distrito = relationship('Distrito')
+    usuario = relationship('Usuario', primaryjoin='Persona._cusucod == Usuario.ccodusu')
+
+
+class Provincia(Base):
+    __tablename__ = 'provincia'
+
+    ccodpro = Column(CHAR(4), primary_key=True)
+    cdescri = Column(CHAR(45), nullable=False)
+
+
+t_t_cdesemp = Table(
+    't_cdesemp', metadata,
+    Column('cdescri', String(200))
+)
+
+
+class Usuario(Base):
+    __tablename__ = 'usuario'
+    __table_args__ = {'comment': 'Maestro de Usuaios, Usuarios del Sistema'}
+
+    ccodusu = Column(CHAR(4), primary_key=True, comment='Codigo del usuario')
+    _cnrodni = Column(ForeignKey('persona.cnrodni', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Persona')
+    c_cargo = Column(CHAR(3), nullable=False, server_default=text("'000'::bpchar"), comment='Codigo de Cargo asociado a TablaTablas[]')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(CHAR(4), nullable=False, comment='Usuario que registra')
+    tgenera = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Generacion')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+
+    persona = relationship('Persona', primaryjoin='Usuario._cnrodni == Persona.cnrodni')
+
+
+t_v_appopc_1 = Table(
+    'v_appopc_1', metadata,
+    Column('nidapp', SmallInteger),
+    Column('cdesapp', CHAR(100)),
+    Column('cversio', CHAR(10)),
+    Column('c_estapp', CHAR(1)),
+    Column('ccodopc', CHAR(15)),
+    Column('cdesopc', String(100)),
+    Column('c_estopc', CHAR(1))
+)
+
+
+t_v_persona_1 = Table(
+    'v_persona_1', metadata,
+    Column('c_tipdoc', CHAR(1)),
+    Column('cdesdoc', String(100)),
+    Column('cnrodoc', String(15)),
+    Column('cnrodni', CHAR(8)),
+    Column('cnombres', String(200)),
+    Column('capepat', Text),
+    Column('capemat', Text),
+    Column('cnombre', Text),
+    Column('c_genero', CHAR(1)),
+    Column('cdessex', String(100)),
+    Column('c_tipseg', CHAR(1)),
+    Column('cdesseg', String(100)),
+    Column('tnacimi', Date),
+    Column('nedad', Float(53)),
+    Column('cdirecc', String(300)),
+    Column('ccorreo', String(300)),
+    Column('cnrocel', String(24)),
+    Column('c_estado', CHAR(1)),
+    Column('cdesest', String(100)),
+    Column('ccoddep', CHAR(2)),
+    Column('cdesdep', CHAR(30)),
+    Column('ccodpro', CHAR(4)),
+    Column('cdespro', CHAR(45)),
+    Column('ccoddis', CHAR(6)),
+    Column('cdesdis', CHAR(45))
+)
+
+
+t_v_tablatablas_1 = Table(
+    'v_tablatablas_1', metadata,
+    Column('ccodtab', CHAR(3)),
+    Column('ccodigo', String(8)),
+    Column('cdescri', String(100)),
+    Column('norden', SmallInteger)
+)
+
+
+t_v_usrrolopc_1 = Table(
+    'v_usrrolopc_1', metadata,
+    Column('ccodusu', CHAR(4)),
+    Column('c_estusu', CHAR(1)),
+    Column('ccodrol', CHAR(3)),
+    Column('cdesrol', String(100)),
+    Column('c_estrol', CHAR(1)),
+    Column('ccodopc', CHAR(15)),
+    Column('cdesopc', String(100)),
+    Column('csvgpat', CHAR(1500)),
+    Column('c_estopc', CHAR(1))
+)
+
+
+class App(Base):
+    __tablename__ = 'app'
+    __table_args__ = {'comment': 'Tabla Aplicaciones que usan la base de datos'}
+
+    nidapp = Column(SmallInteger, primary_key=True, comment='codigo de la aplicacion que usa la base de datos')
+    cdescri = Column(CHAR(100), nullable=False, comment='Descripcion')
+    cversio = Column(CHAR(10), nullable=False, comment='Version de la aplicacion')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+
+    usuario = relationship('Usuario')
+
+
+class Empresa(Base):
+    __tablename__ = 'empresa'
+    __table_args__ = {'comment': 'Maestro Empresas'}
+
+    cnroruc = Column(CHAR(11), primary_key=True, comment='Numero de RUC de la empresa')
+    cdescri = Column(String(200), nullable=False, comment='Nombre comercial')
+    _ccoddis = Column(CHAR(8), server_default=text("'000000'::bpchar"), comment='Referencia a tabla Distrito')
+    cdirecc = Column(String(300), comment='Direccion fisica')
+    cclave = Column(CHAR(128), nullable=False, comment='Clave en SHA512')
+    cconsul = Column(String(90), comment='Grupo de RUC separados por coma para poder realizar la consulta')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+
+    usuario = relationship('Usuario')
+
+
+class Rol(Base):
+    __tablename__ = 'rol'
+    __table_args__ = {'comment': 'Agrupacion de Opciones'}
+
+    ccodrol = Column(CHAR(3), primary_key=True, comment='Codigo del Rol')
+    cdescri = Column(String(100), nullable=False, comment='Descripcion')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+
+    usuario = relationship('Usuario')
+
+
+t_tablatablas = Table(
+    'tablatablas', metadata,
+    Column('nserial', Integer, nullable=False, unique=True, server_default=text("nextval('tablatablas_nserial_seq'::regclass)")),
+    Column('ccodtab', CHAR(3), nullable=False, comment='Codigo del Arreglo'),
+    Column('ctblfld', String(100), nullable=False, comment=' Descripcion del campo Arreglo'),
+    Column('ccodigo', String(8), nullable=False, comment='Codigo dentro del Arreglo'),
+    Column('norden', SmallInteger, nullable=False, comment='Orden en que se muestran'),
+    Column('c_tipreg', CHAR(1), nullable=False, comment='M:cabecera MAESTRO, D: DETALLE'),
+    Column('cdescri', String(100), nullable=False, comment='Descripcion del campo'),
+    Column('_cusucod', ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra'),
+    Column('tmodifi', DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion'),
+    comment='Tabla donde se guardan las opciones de los select, estados, descripciones generales'
+)
+
+
+t_empresa_centrodistribucion = Table(
+    'empresa_centrodistribucion', metadata,
+    Column('nserial', Integer, nullable=False, unique=True, server_default=text("nextval('empresa_centrodistribucion_nserial_seq'::regclass)")),
+    Column('_cnroruc', ForeignKey('empresa.cnroruc', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Empresa'),
+    Column('ccendis', CHAR(2), nullable=False, comment='Codigo interno de la sub empresa o area'),
+    Column('cdescri', String(200), nullable=False, comment='Descripcion del area o sucursal'),
+    Column('_cusucod', ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra'),
+    Column('tmodifi', DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion'),
+    comment='Roles Asociados a los usuarios'
+)
+
+
+class Opcion(Base):
+    __tablename__ = 'opcion'
+    __table_args__ = {'comment': 'Opciones del Sistema'}
+
+    ccodopc = Column(CHAR(15), primary_key=True, comment='Codigo de Opcion/ Nombre de la pantalla')
+    _nidapp = Column(ForeignKey('app.nidapp', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla App')
+    cdescri = Column(String(100), nullable=False, comment='Descripcion')
+    csvgpat = Column(CHAR(1500), comment='Texto svg para imagenes')
+    c_estado = Column(CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]')
+    _cusucod = Column(ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra')
+    tmodifi = Column(DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion')
+
+    usuario = relationship('Usuario')
+    app = relationship('App')
+
+
+t_usuario_rol = Table(
+    'usuario_rol', metadata,
+    Column('nserial', Integer, nullable=False, unique=True, server_default=text("nextval('usuario_rol_nserial_seq'::regclass)")),
+    Column('_ccodrol', ForeignKey('rol.ccodrol', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Rol'),
+    Column('_ccodusu', ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario'),
+    Column('c_estado', CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]'),
+    Column('_cusucod', ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra'),
+    Column('tmodifi', DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion'),
+    comment='Roles Asociados a los usuarios'
+)
+
+
+t_rol_opcion = Table(
+    'rol_opcion', metadata,
+    Column('nserial', Integer, nullable=False, unique=True, server_default=text("nextval('rol_opcion_nserial_seq'::regclass)")),
+    Column('_ccodopc', ForeignKey('opcion.ccodopc', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Opcion'),
+    Column('_ccodrol', ForeignKey('rol.ccodrol', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Rol'),
+    Column('c_estado', CHAR(1), nullable=False, server_default=text("'A'::bpchar"), comment='Referencia a la tabla TablaTablas[]'),
+    Column('_cusucod', ForeignKey('usuario.ccodusu', ondelete='RESTRICT', onupdate='CASCADE'), nullable=False, comment='Referencia a la tabla Usuario, Usuario que registra'),
+    Column('tmodifi', DateTime, nullable=False, server_default=text("now()"), comment='Fecha Modificacion'),
+    comment='Puente Rol Opciones del Sistema'
+)

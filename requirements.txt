@@ -3,3 +3,8 @@ psycopg2-binary
 fpdf
 pandas
 openpyxl
+pytest
+###Linters and formating
+black
+isort
+flake8

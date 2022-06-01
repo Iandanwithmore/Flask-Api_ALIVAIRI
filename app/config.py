@@ -12,6 +12,8 @@ class Config:
     APP_DIR = os.path.abspath(os.path.dirname(__file__))
     PROJECT_DIR = os.path.split(APP_DIR)[0]
     ROOT_DIR = os.path.split(PROJECT_DIR)[0]
+    ROUTES_DIR = os.path.abspath(os.path.dirname(__file__)) + "/routes"
+    DOMAIN_DIR = os.path.abspath(os.path.dirname(__file__)) + "/domain"
 
     LOG_FILE = PROJECT_DIR + "/log/api_server.log"
     PATH_PDF_SRC = APP_DIR + "/PDF/assets"

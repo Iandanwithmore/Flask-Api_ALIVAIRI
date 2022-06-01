@@ -8,8 +8,12 @@ import pytest
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(1, os.path.split(basedir)[0])
+from app.adapters.ConsentPDF import CConsentimiento
 from app.config import Config
-from app.PDF.CConsentimiento import CConsentimiento
+
+# @pytest.fixture(autouse=True)
+# def change_test_dir(request, monkeypatch):
+#     monkeypatch.chdir(request.fspath.dirname)
 
 
 def test_print():
@@ -111,4 +115,4 @@ def test_print():
     loConsentimiento.setData(laData["DATA"])
     loConsentimiento.setConsentimiento(laconsentimiento)
     loConsentimiento.setExamenes(laexamenes)
-    assert loConsentimiento.print_consentimiento() == True
+    assert loConsentimiento.print_consentimiento() is True

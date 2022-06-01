@@ -2,6 +2,7 @@ import importlib.util
 import logging
 import os
 from logging.handlers import TimedRotatingFileHandler
+import json
 
 from flask import Flask, has_request_context, request
 
@@ -14,11 +15,10 @@ from .config import DevelopmentConfig, TestingConfig
 def create_app(config=TestingConfig):
     app = Flask(__name__)
 
-    register_blueprints(app, "src")
+    register_blueprints(app, app.config["ROUTES_DIR"])
 
     app.config.from_object(config)
-    print(f'ENV is set to: {app.config["FLASK_ENV"]}')
-    print(app.config)
+    print(f"ENV is set to:\n   {json.dumps(app.config, indent=3, sort_keys=True)}")
 
     app.secret_key = app.config["SECRET_KEY"]
 

@@ -1,10 +1,53 @@
 PRIMARY
-1.Test all formats
-2.When activity is in state 'F' and is the last re-generate all files
-3.permissions to users to see other files
-4.CActividad cut in services with json predefined
-SECONDARY
 1. Docs in functions
 2. Notations in functions
-3. Refactor Routes with exception_handler_request
-4. Move fetch all to CBase
+BEFORE PUSH
+python3 -m isort .
+python3 -m black .
+python3 -m flake8 . --ignore E501,W291,W503
+pg_dump -i -h <server> -p <puerto> -U <usuario> -F c -b -v -f <nombre_fichero> <bd>
+
+https://www.toptal.com/flask/flask-production-recipes
+pip install sqlacodegen
+sqlacodegen postgresql://odoo:odoo@127.0.0.1/odoo8
+
+SELECT
+STRING_AGG (
+    UPPER(column_name) ||': '||
+	case  
+            when data_type = 'bigint' then 'long'
+            when data_type = 'binary' then 'byte[]'
+            when data_type = 'bit' then 'bool'
+            when data_type = 'char' then 'str'
+            when data_type = 'date' then 'DateTime'
+            when data_type = 'datetime' then 'DateTime'
+            when data_type = 'timestamp without time zone' then 'DateTime'
+            when data_type = 'datetimeoffset' then 'DateTimeOffset'
+            when data_type = 'decimal' then 'decimal'
+            when data_type = 'float' then 'double'
+            when data_type = 'image' then 'byte[]'
+            when data_type = 'int' then 'int'
+            when data_type = 'money' then 'decimal'
+            when data_type = 'nchar' then 'str'
+            when data_type = 'ntext' then 'str'
+            when data_type = 'numeric' then 'decimal'
+            when data_type = 'nvarchar' then 'str'
+            when data_type = 'real' then 'float'
+            when data_type = 'smalldatetime' then 'DateTime'
+            when data_type = 'smallint' then 'short'
+            when data_type = 'smallmoney' then 'decimal'
+            when data_type = 'text' then 'str'
+            when data_type = 'time' then 'TimeSpan'
+            when data_type = 'timestamp' then 'long'
+            when data_type = 'tinyint' then 'byte'
+            when data_type = 'uniqueidentifier' then 'Guid'
+            when data_type = 'varbinary' then 'byte[]'
+            when data_type = 'varchar' then 'str'
+			when data_type = 'character' then 'str'
+            else 'UNKNOWN_' || data_type
+        end
+, '\n')
+FROM
+    information_schema.columns
+WHERE
+    table_name = 'actividad';

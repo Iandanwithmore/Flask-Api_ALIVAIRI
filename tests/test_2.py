@@ -8,8 +8,8 @@ import pytest
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 sys.path.insert(1, os.path.split(basedir)[0])
+from app.adapters.ActivityPDF import CActividad
 from app.config import Config
-from app.PDF.CActividad import CActividad
 
 """
 {"CCODIGO": "000000", "CDESCRI": "PRUEBA ACTIVIDADES", "CTIPSER": "T"},
@@ -48,7 +48,7 @@ def test_factory_print(input_a):
     f1.close()
     loActividad.setData(laData["DATA"])
     loActividad.setExamen([input_a])
-    assert loActividad.print_actividad() == True
+    assert loActividad.print_actividad() is True
 
 
 # def test_monkey(monkeypatch):
