@@ -7,12 +7,20 @@ import app.domain.Ids as Ids
 @dataclass
 class Role:
     """
-    Opciones del sistema
+    Set of Options
+    attr:
+        RoleId: serial str with format define in Ids.py
+        Description: name
+        pathSVG: path to file that contents svg image
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     RoleId: Ids.ROLE_ID
     Description: str(100)
-    AppId: Ids.APP_ID
     pathSVG: str(1500)
     isActivate: bool = True
     CreateUserId: Ids.USER_ID

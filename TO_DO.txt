@@ -7,6 +7,10 @@ python3 -m black .
 python3 -m flake8 . --ignore E501,W291,W503
 pg_dump -i -h <server> -p <puerto> -U <usuario> -F c -b -v -f <nombre_fichero> <bd>
 
+APPDIR = os.path.split(os.path.abspath(os.path.dirname(__file__)))[0]
+
+Config = SourceFileLoader("config", APPDIR).load_module()
+
 https://www.toptal.com/flask/flask-production-recipes
 pip install sqlacodegen
 sqlacodegen postgresql://odoo:odoo@127.0.0.1/odoo8

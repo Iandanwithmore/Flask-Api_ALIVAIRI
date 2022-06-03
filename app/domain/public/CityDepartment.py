@@ -7,7 +7,12 @@ import app.domain.Ids as Ids
 @dataclass
 class CityDepartment:
     """
-    Examen que tiene asociado indicadores
+    Firts Subclass of District ID of City base on (Department-Province-Disctrict) Ubigeo from Peru
+    attr:
+        CityDepartmentId: id from dataset
+        Description: city name
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     CityDepartmentId: Ids.CITYDEPARTMENT_ID

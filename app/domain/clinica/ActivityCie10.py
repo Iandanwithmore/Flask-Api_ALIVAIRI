@@ -7,7 +7,13 @@ import app.domain.Ids as Ids
 @dataclass
 class ActivityCie10:
     """
-    Opcional: Puente entre actividad y Cie10
+    Complement to Activity in base of dataset of diagnostics that gives the state (Peru)
+    attr:
+        ActivityCie10Id: serial int
+        ActivityId: ForeignKey Activity, identifier of activity
+        Cie10Id: ForeignKey Cie10, identifier of cie10
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
     """
 
     ActivityCie10Id: int

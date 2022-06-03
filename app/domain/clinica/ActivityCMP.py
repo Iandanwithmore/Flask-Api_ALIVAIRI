@@ -7,7 +7,13 @@ import app.domain.Ids as Ids
 @dataclass
 class ActivityCMP:
     """
-    Opcional: Puente entre actividad y CMP(Codigo medico procedimental)
+    Complement to Activity in base of dataset of medical procedure that gives the state (Peru)
+    attr:
+        ActivityCMPId: serial int
+        ActivityId: ForeignKey Activity, identifier of activity
+        CMPId: ForeignKey CMP, identifier of cmp
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
     """
 
     ActivityCMPId: int

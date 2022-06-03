@@ -8,7 +8,14 @@ import app.domain.Ids as Ids
 @dataclass
 class ActivityComment:
     """
-    Opcional: Puente entre actividad y comentarios sobre examenes
+    Complement to Activity that gives comments about the form
+    attr:
+        ActivityCommentId: serial int
+        ActivityId: ForeignKey Activity, identifier of activity
+        Description: comment of activity form
+        TypeCommentConstant: ForeignKey Constants (optional), types of comment in activity
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
     """
 
     ActivityCommentId: int
@@ -19,4 +26,4 @@ class ActivityComment:
     CreateDate: datetime = datetime.now()
 
     def get_TypeCommentConstant(self, TypeComentConstant: str):
-        return Constants.ConstantService_TypeService.get(TypeComentConstant)
+        return Constants.Service_TypeService.get(TypeComentConstant)

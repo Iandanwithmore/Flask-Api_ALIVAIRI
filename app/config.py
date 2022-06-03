@@ -1,46 +1,27 @@
 import os
+APP_DIR = os.path.abspath(os.path.dirname(__file__))
+PROJECT_DIR = os.path.split(APP_DIR)[0]
+ROOT_DIR = os.path.split(PROJECT_DIR)[0]
+ROUTES_DIR = APP_DIR + "\\routes"
+DOMAIN_DIR = APP_DIR + "\\domain"
+LOG_FILE = PROJECT_DIR + "\\log\\api_server.log"
+PATH_PDF_SRC = APP_DIR + "\\PDF\\assets"
+PATH_FILE = "\\var\\Docs\\PACIENTE"
+ALLOWED_EXTENSIONS = {"pdf", "png", "jpg", "jpeg", "csv"}
+MAX_CONTENT_LENGTH = 16000
 
-# Find the absolute file path to the top level project directory
-basedir = os.path.abspath(os.path.dirname(__file__))
+APP_PORT = "4000"
+API_URL = "http://127.0.0.1:4000"
+SECURE = True
+SECRET_KEY = "BatmanisBruceWayne"
 
-
-class Config:
-    DEBUG = False
-    TESTING = False
-    SECURE = True
-    SECRET_KEY = "BatmanisBruceWayne"
-    APP_DIR = os.path.abspath(os.path.dirname(__file__))
-    PROJECT_DIR = os.path.split(APP_DIR)[0]
-    ROOT_DIR = os.path.split(PROJECT_DIR)[0]
-    ROUTES_DIR = os.path.abspath(os.path.dirname(__file__)) + "/routes"
-    DOMAIN_DIR = os.path.abspath(os.path.dirname(__file__)) + "/domain"
-
-    LOG_FILE = PROJECT_DIR + "/log/api_server.log"
-    PATH_PDF_SRC = APP_DIR + "/PDF/assets"
-    PATH_FILE = "var/Docs/PACIENTE"
-
-    ALLOWED_EXTENSIONS = {"pdf", "png", "jpg", "jpeg", "csv"}
-    MAX_CONTENT_LENGTH = 16000
-
-    API_CONECTION = (
-        "host=localhost dbname=ALIVIARI user=postgres password=postgres port=5434"
+PSQL_DB="ALIVIARI"
+PSQL_BD_PORT="5434"
+PSQL_DB_USER="postgres"
+PSQL_DB_PASSWORD="postgres"
+PSQL_MIGRATE_DB_CONECTION = (
+    "host=localhost dbname=postgres user="+PSQL_DB_USER+" password="+PSQL_DB_PASSWORD+" port="+PSQL_BD_PORT
+)
+PSQL_DB_CONECTION_PSQL = (
+    "host=localhost dbname="+PSQL_DB+" user="+PSQL_DB_USER+" password="+PSQL_DB_PASSWORD+" port="+PSQL_BD_PORT
     )
-    APP_PORT = "4000"
-    API_URL = "http://127.0.0.1:4000"
-
-
-class ProductionConfig(Config):
-    FLASK_ENV = "Production"
-    pass
-
-
-class DevelopmentConfig(Config):
-    FLASK_ENV = "Develop"
-    DEBUG = True
-    SECURE = False
-
-
-class TestingConfig(Config):
-    FLASK_ENV = "Test"
-    TESTING = True
-    SECURE = False

@@ -7,7 +7,15 @@ import app.domain.Ids as Ids
 @dataclass
 class User:
     """
-    Opciones del sistema
+    Person with privilegies in app
+    attr:
+        UserId: serial str with format define in Ids.py
+        PersonId: ForeignKey PErson, identifier of person
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     UserId: Ids.USER_ID

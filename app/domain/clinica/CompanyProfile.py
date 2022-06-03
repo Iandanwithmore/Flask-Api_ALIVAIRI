@@ -7,7 +7,16 @@ import app.domain.Ids as Ids
 @dataclass
 class CompanyProfile:
     """
-    Perfilq ue contiene examenes de una empresa
+    Company have many profiles that includes many exams
+    attr:
+        CompanyprofileId: serial str
+        Description: name of Profile
+        CompanyId: ForeignKey Company, identifier of company
+        isActive: bool = False
+        CreateUserId: Ids.USER_ID
+        CreateDate: datetime = datetime.now()
+        WriteUserId: Ids.USER_ID
+        WriteDate: datetime = datetime.now()
     """
 
     CompanyprofileId: Ids.COMPANYPROFILE_ID

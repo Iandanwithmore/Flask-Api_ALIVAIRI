@@ -1,12 +1,12 @@
-ConstantPerson_TypeDocument = {
+Person_TypeDocument = {
     "D": "DNI",
     "P": "Pasaporte",
 }
-ConstantPerson_Gender = {
+Person_Gender = {
     "M": "Masculino",
     "F": "Femenino",
 }
-ConstantPerson_TypeHealth = {
+Person_TypeHealth = {
     "N": "N/A",
     "S": "Seguro Social",
 }

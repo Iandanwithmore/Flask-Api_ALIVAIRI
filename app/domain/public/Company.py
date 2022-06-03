@@ -7,7 +7,18 @@ import app.domain.Ids as Ids
 @dataclass
 class Company:
     """
-    Examen que tiene asociado indicadores
+    Company that have relation with hospital
+    attr:
+        CompanyId: str with specific format
+        Description: name
+        AddressId: ForeignKey CityDistrict, identifier of district
+        Address: Full address name
+        Password: hash of password
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     CompanyId: Ids.COMPANY_ID

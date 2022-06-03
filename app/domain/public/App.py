@@ -7,7 +7,16 @@ import app.domain.Ids as Ids
 @dataclass
 class App:
     """
-    Examen que tiene asociado indicadores
+    Apps Register
+    attr:
+        AppId: serail int
+        Description: title of app
+        Version: information about dev of app
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     AppId: Ids.APP_ID

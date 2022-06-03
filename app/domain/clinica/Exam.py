@@ -8,7 +8,17 @@ from datetime import datetime
 @dataclass
 class Exam:
     """
-    Examen que tiene como sub conjunto indicadores
+    Set of indicator that fill doctor
+    attr:
+        ExamId: serial str with format define in Ids.py
+        Description: title of exam
+        Information: extra information about exam
+        TypeServiceConstant: ForeignKey Constants (optional), services that provides hospital
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     ExamId: Ids.EXAM_ID
@@ -23,4 +33,4 @@ class Exam:
     # AsociateExamID: str
 
     def get_TypeServiceConstant(self, TypeServiceId: str):
-        return Constants.ConstantService_TypeService.get(TypeServiceId)
+        return Constants.Service_TypeService.get(TypeServiceId)

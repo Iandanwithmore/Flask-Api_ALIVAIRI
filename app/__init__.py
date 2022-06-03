@@ -7,20 +7,19 @@ import json
 from flask import Flask, has_request_context, request
 
 # Standard library imports
-from .config import DevelopmentConfig, TestingConfig
+from .config import Config
 
 # from logging.handlers import SMTPHandler
 
 
-def create_app(config=TestingConfig):
+def create_app():
     app = Flask(__name__)
 
-    register_blueprints(app, app.config["ROUTES_DIR"])
+    register_blueprints(app)
 
-    app.config.from_object(config)
+    app.config.from_object(Config)
     print(f"ENV is set to:\n   {json.dumps(app.config, indent=3, sort_keys=True)}")
-
-    app.secret_key = app.config["SECRET_KEY"]
+    app.secret_key = Config["SECRET_KEY"]
 
     class RequestFormatter(logging.Formatter):
         def format(self, record):
@@ -36,7 +35,7 @@ def create_app(config=TestingConfig):
         "{'TIME':%(asctime)s,'ADDRESS':'%(remote_addr)s','URL': '%(url)s','TYPE':'%(levelname)s','MODULE':'%(module)s','MSG':{%(message)s}}"
     )
     handler = TimedRotatingFileHandler(
-        app.config["LOG_FILE"], when="midnight", interval=1, encoding="utf8"
+        Config["LOG_FILE"], when="midnight", interval=1, encoding="utf8"
     )
     handler.suffix = "%Y-%m-%d"
     handler.setFormatter(formatter)
@@ -48,12 +47,12 @@ def create_app(config=TestingConfig):
 
 def register_blueprints(app, dir):
     try:
-        lst = os.listdir("app/" + dir)
+        route_dir = os.listdir(Config["ROUTES_DIR"])
     except OSError:
         print("NO SE PUDIERON CARGAR LAS BLUEPRINTS")
     else:
-        for name_route in lst:
-            if name_route != "__pycache__":
-                name_class = name_route.split(".py")[0]
+        for route in route_dir:
+            if route != "__pycache__":
+                name_class = route.split(".py")[0]
                 module = importlib.import_module("app." + dir + "." + name_class)
                 app.register_blueprint(getattr(module, name_class))

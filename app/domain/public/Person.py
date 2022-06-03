@@ -8,7 +8,25 @@ import app.domain.Ids as Ids
 @dataclass
 class Person:
     """
-    Examen que tiene asociado indicadores
+    Person data
+    attr:
+        PersonId: str with format define in Ids.py
+        TypeDocumentConstant: ForeignKey Constants (optional), type of document
+        NumberDocument: document id
+        Name: name
+        GenderConstant: ForeignKey Constants (optional), gender of person
+        BirthDay: date of birth
+        TypeHealthConstant: ForeignKey Constants (optional), have sure heatlh
+        MailAddress: mail
+        PhoneNumber: number of person
+        AddressId: ForeignKey CityDistrict, identifier of district
+        Address: Full address name
+        Password: hash of password
+        isActive: value to indicate state
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
+        WriteUserId: ForeignKey User, identifier of user that modify the register
+        WriteDate: timestamp for audit purpose
     """
 
     PersonId: Ids.PERSON_ID
@@ -30,10 +48,10 @@ class Person:
     WriteDate: datetime = datetime.now()
 
     def get_TypeDocumentConstant(self, TypeDocumentConstant: str):
-        return Constants.ConstantPerson_TypeDocument.get(TypeDocumentConstant)
+        return Constants.Person_TypeDocument.get(TypeDocumentConstant)
 
     def get_TypeHealthConstant(self, TypeHealthConstant: str):
-        return Constants.ConstantPerson_Gender.get(TypeHealthConstant)
+        return Constants.Person_Gender.get(TypeHealthConstant)
 
     def get_GenderConstant(self, GenderConstant: str):
-        return Constants.ConstantPerson_TypeHealth.get(GenderConstant)
+        return Constants.Person_TypeHealth.get(GenderConstant)

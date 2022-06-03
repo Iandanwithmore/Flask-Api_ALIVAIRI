@@ -27,4 +27,4 @@ class ScheduleActivity:
     WriteDate: datetime = datetime.now()
 
     def get_TypeTimeConstant(self, TypeTimeConstant: str):
-        return Constants.ConstantScheduleActivity_LapseTime.get(TypeTimeConstant)
+        return Constants.ScheduleActivity_LapseTime.get(TypeTimeConstant)

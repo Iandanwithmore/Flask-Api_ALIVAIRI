@@ -25,4 +25,4 @@ class Indicator:
     WriteDate: datetime = datetime.now()
 
     def get_TypeFieldConstant(self, TypeofFieldConstant: str):
-        return Constants.ConstantService_TypeService.get(TypeofFieldConstant)
+        return Constants.Service_TypeService.get(TypeofFieldConstant)

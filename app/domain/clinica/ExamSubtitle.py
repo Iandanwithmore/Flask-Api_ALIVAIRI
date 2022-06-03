@@ -5,11 +5,17 @@ import app.domain.Ids as Ids
 
 class ExamSubtitle:
     """
-    Subitulos presentes en los PDF para agrupar indicadores
+    Group of indicators with relation in exam
+    attr:
+        ExamSubtitleId: serial int
+        ExamId: ForeignKey Exam, identifier of exam
+        ExamTemplateOrder: PForeignKey ExamTemplate, identifier of template
+        CreateUserId: ForeignKey User, identifier of user that creates the register
+        CreateDate: timestamp for audit purpose
     """
 
     ExamSubtitleId: int
     ExamId: Ids.CONSENT_ID
-    OrderLinkedList: str(6)
+    ExamTemplateId: Ids.EXAMTEMPLATE_ID
     CreateUserId: Ids.USER_ID
     CreateDate: datetime = datetime.now()
